@@ -20,6 +20,5 @@ make
 
 Using this command will run LoPhy on the provided example data. Please see the jupyter-notebook in the `example` folder for an example of how to run LoPhy in python.
 ```
-cd LoPhy
 ./bin/LoPhy -c example/inputs/character_matrix.csv -v example/inputs/variant_reads.csv -t example/inputs/total_reads.csv -m example/inputs/meta.csv -r example/inputs/region_reads.csv -o example/outputs -p out -seed 0 -homp 15 -hetp 4 -fp 0.02 -fn 0.05 -s example/inputs/cell_samples.txt
 ```
