@@ -8,10 +8,12 @@
 * \>= c++20 
 
 ### Installing
-`git clone https://github.com/ethanumn/LoPhy.git`
-`cd LoPhy`
-`mkdir bin`
-`make`
+```
+git clone https://github.com/ethanumn/LoPhy.git
+cd LoPhy
+mkdir bin
+make
+```
 
 
 ### Run on example data
