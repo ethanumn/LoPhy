@@ -1,6 +1,15 @@
 # LoPhy
 
-**LoPhy** is an algorithm designed for **LO**ngitudinal **Phy**logenetic reconstruction from single-cell amplicon sequencing. The algorithmic design and experimental validation can be found here: [https://www.biorxiv.org/content/10.1101/2025.09.16.676596v1.abstract](https://www.biorxiv.org/content/10.1101/2025.09.16.676596v1.abstract "https://www.biorxiv.org/content/10.1101/2025.09.16.676596v1.abstract").
+**LoPhy** is an algorithm designed for **LO**ngitudinal **Phy**logenetic reconstruction from single-cell amplicon sequencing. The algorithmic design and experimental validation can be found here: https://www.biorxiv.org/content/10.1101/2025.09.16.676596v2.
+
+<p align="center">
+  <img src="overview.png" alt="Overview figure" width="600"/>
+  <br>
+  <em>Overview of LoPhy. <b>a.</b> Four types of somatic events are modeled. <b>b.</b> Longitudinal reconstruction: LoPhy
+infers somatic events from longitudinal single-cell amplicon sequencing to build subtrees T<sup>1</sup>, T<sup>2</sup>, T<sup>3</sup> representing
+evolution up to time of sampling. c. Inputs from longitudinal targeted single-cell sequencing include total coverage
+of targeted regions and locus-level alternative/reference read counts.</em>
+</p>
 
 ### Requirements
 
