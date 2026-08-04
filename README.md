@@ -2,6 +2,9 @@
 
 **LoPhy** is an algorithm designed for **LO**ngitudinal **Phy**logenetic reconstruction from single-cell amplicon sequencing. The algorithmic design and experimental validation can be found here: [https://www.biorxiv.org/content/10.1101/2025.09.16.676596v1.abstract](https://www.biorxiv.org/content/10.1101/2025.09.16.676596v1.abstract "https://www.biorxiv.org/content/10.1101/2025.09.16.676596v1.abstract").
 
+
+<img width="450" height="550" alt="overview_landscape1 eps" src="https://github.com/user-attachments/assets/7c7d8514-06e4-4581-842f-b93d94e7934b" />
+
 ### Requirements
 
 * MacOS or Linux
