@@ -2,6 +2,9 @@
 
 **LoPhy** is an algorithm designed for **LO**ngitudinal **Phy**logenetic reconstruction from single-cell amplicon sequencing. The algorithmic design and experimental validation can be found here: [https://www.biorxiv.org/content/10.1101/2025.09.16.676596v1.abstract](https://www.biorxiv.org/content/10.1101/2025.09.16.676596v1.abstract "https://www.biorxiv.org/content/10.1101/2025.09.16.676596v1.abstract").
 
+
+<img width="453" height="585" alt="overview_landscape1 eps" src="https://github.com/user-attachments/assets/7c7d8514-06e4-4581-842f-b93d94e7934b" />
+
 ### Requirements
 
 * MacOS or Linux
@@ -15,10 +18,36 @@ mkdir bin
 make
 ```
 
+To use LoPhy within the oncophylo package, create a virtual environment and install the `oncophylo` package
+```
+virtualenv env
+source bin/env/active
+
+git clone https://github.com/ethanumn/oncophylo
+pip install -e oncophylo
+
+mkdir -p oncophylo/oncophylo/bin
+cp bin/LoPhy oncophylo/bin/LoPhy
+```
+
 
 ### Run on example data
 
 Using this command will run LoPhy on the provided example data. Please see the jupyter-notebook in the `example` folder for an example of how to run LoPhy in python.
 ```
 ./bin/LoPhy -c example/inputs/character_matrix.csv -v example/inputs/variant_reads.csv -t example/inputs/total_reads.csv -m example/inputs/meta.csv -r example/inputs/region_reads.csv -o example/outputs -p out -seed 0 -homp 15 -hetp 4 -fp 0.02 -fn 0.05 -s example/inputs/cell_samples.txt
+
+```
+
+### Running experiment notebooks
+
+Running the jupyter notebooks requires additional packages including
+```
+numpy
+pandas
+scikit-learn
+jupyter
+oncophylo
+matplotlib
+networkx
 ```
