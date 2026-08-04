@@ -1,0 +1,88 @@
+{
+"nodes":[
+	{
+		"name": "Node 0",
+		"parent": "-",
+		"SNV": ["DNMT3A_intronic","RAD21_silent"],
+		"CNA": []
+	},
+	{
+		"name": "Node 1",
+		"parent": "Node 7",
+		"SNV": ["NRAS_pG60E"],
+		"CNA": []
+	},
+	{
+		"name": "Node 2",
+		"parent": "Node 4",
+		"SNV": [],
+		"CNA": ["CNLOH RUNX1"]
+	},
+	{
+		"name": "Node 3",
+		"parent": "Node 7",
+		"SNV": ["IDH1_pR132C","RUNX1_pS318fs"],
+		"CNA": []
+	},
+	{
+		"name": "Node 4",
+		"parent": "Node 7",
+		"SNV": ["FLT3_pK602fs"],
+		"CNA": []
+	},
+	{
+		"name": "Node 5",
+		"parent": "Node 7",
+		"SNV": ["PTPN11_pI282V","MYC_pP72fs"],
+		"CNA": []
+	},
+	{
+		"name": "Node 6",
+		"parent": "Node 2",
+		"SNV": [],
+		"CNA": ["Gain SMC1A"]
+	},
+	{
+		"name": "Node 7",
+		"parent": "Node 0",
+		"SNV": ["SRSF2_pP95L","RUNX1_pR162K","IDH2_pR140Q","DNMT3A_pR882H"],
+		"CNA": ["Gain RAD21","Gain MYC"]
+	},
+	{
+		"name": "Node 8",
+		"parent": "Node 7",
+		"SNV": ["NRAS_pI55L"],
+		"CNA": []
+	},
+	{
+		"name": "Node 9",
+		"parent": "Node 2",
+		"SNV": [],
+		"CNA": ["Loss SMC1A"]
+	},
+	{
+		"name": "Node 10",
+		"parent": "Node 6",
+		"SNV": ["CSF3R_pQ768"],
+		"CNA": []
+	},
+	{
+		"name": "Node 11",
+		"parent": "Node 1",
+		"SNV": [],
+		"CNA": ["CNLOH RUNX1"]
+	},
+	{
+		"name": "Node 12",
+		"parent": "Node 1",
+		"SNV": ["EZH2_pA319G"],
+		"CNA": []
+	},
+	{
+		"name": "Node 13",
+		"parent": "Node 3",
+		"SNV": ["CSF3R_pQ776"],
+		"CNA": []
+	}
+]
+}

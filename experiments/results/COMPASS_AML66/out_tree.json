@@ -1,0 +1,52 @@
+{
+"nodes":[
+	{
+		"name": "Node 0",
+		"parent": "-",
+		"SNV": [],
+		"CNA": []
+	},
+	{
+		"name": "Node 1",
+		"parent": "Node 5",
+		"SNV": ["SRSF2_pP95L"],
+		"CNA": []
+	},
+	{
+		"name": "Node 2",
+		"parent": "Node 3",
+		"SNV": ["NRAS_pG12S"],
+		"CNA": []
+	},
+	{
+		"name": "Node 3",
+		"parent": "Node 1",
+		"SNV": ["PTPN11_pG503E"],
+		"CNA": []
+	},
+	{
+		"name": "Node 4",
+		"parent": "Node 3",
+		"SNV": ["NRAS_pG12D"],
+		"CNA": []
+	},
+	{
+		"name": "Node 5",
+		"parent": "Node 0",
+		"SNV": ["ASXL1_pG646fs"],
+		"CNA": []
+	},
+	{
+		"name": "Node 6",
+		"parent": "Node 3",
+		"SNV": ["KRAS_pG12D"],
+		"CNA": []
+	},
+	{
+		"name": "Node 7",
+		"parent": "Node 1",
+		"SNV": ["IDH2_pR140W"],
+		"CNA": []
+	}
+]
+}

@@ -1,0 +1,28 @@
+{
+"nodes":[
+	{
+		"name": "Node 0",
+		"parent": "-",
+		"SNV": ["NF1_intronic","IDH2_pR172K","DNMT3A_p763fs","DNMT3A_pL889P"],
+		"CNA": []
+	},
+	{
+		"name": "Node 1",
+		"parent": "Node 0",
+		"SNV": ["NRAS_pG12A"],
+		"CNA": []
+	},
+	{
+		"name": "Node 2",
+		"parent": "Node 0",
+		"SNV": ["FLT3_pV491L"],
+		"CNA": []
+	},
+	{
+		"name": "Node 3",
+		"parent": "Node 0",
+		"SNV": ["NRAS_pG12S"],
+		"CNA": []
+	}
+]
+}

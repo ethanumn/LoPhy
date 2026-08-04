@@ -1,0 +1,28 @@
+{
+"nodes":[
+	{
+		"name": "Node 0",
+		"parent": "-",
+		"SNV": ["SNP_NF1_intronic","SNP_TP53_pP72R"],
+		"CNA": []
+	},
+	{
+		"name": "Node 1",
+		"parent": "Node 0",
+		"SNV": ["TP53_pH193R"],
+		"CNA": []
+	},
+	{
+		"name": "Node 2",
+		"parent": "Node 0",
+		"SNV": ["DNMT3A_pR882H"],
+		"CNA": []
+	},
+	{
+		"name": "Node 3",
+		"parent": "Node 1",
+		"SNV": [],
+		"CNA": ["Loss BRAF","Loss EZH2","Loss ETV6","CNLOH TP53"]
+	}
+]
+}

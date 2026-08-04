@@ -1,0 +1,40 @@
+{
+"nodes":[
+	{
+		"name": "Node 0",
+		"parent": "-",
+		"SNV": [],
+		"CNA": []
+	},
+	{
+		"name": "Node 1",
+		"parent": "Node 4",
+		"SNV": ["PTPN11_pG503A"],
+		"CNA": []
+	},
+	{
+		"name": "Node 2",
+		"parent": "Node 4",
+		"SNV": ["KRAS_pG12A"],
+		"CNA": []
+	},
+	{
+		"name": "Node 3",
+		"parent": "Node 0",
+		"SNV": ["TP53_pI232N"],
+		"CNA": []
+	},
+	{
+		"name": "Node 4",
+		"parent": "Node 5",
+		"SNV": [],
+		"CNA": ["CNLOH TP53"]
+	},
+	{
+		"name": "Node 5",
+		"parent": "Node 3",
+		"SNV": [],
+		"CNA": ["Loss EZH2","Loss KRAS"]
+	}
+]
+}

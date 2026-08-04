@@ -4,6 +4,7 @@
 #include <iostream>
 
 using std::accumulate;
+using std::fill; 
 
 data_manager::data_manager(const double & fp, 
                            const double & fn,
@@ -19,39 +20,45 @@ data_manager::data_manager(const double & fp,
                            const int & delta,
                            const double & CNA_penalty,
                            const double & tau1,
-                           const double & tau2) : fp(fp),
-                                                  fn(fn), 
-                                                  fn_indel(fn_indel),
-                                                  num_cells(0), 
-                                                  num_loci(0), 
-                                                  num_regions(0),
-                                                  hom_precision(hom_precision),
-                                                  het_precision(het_precision),
-                                                  hom_precision_indel(hom_precision_indel),
-                                                  het_precision_indel(het_precision_indel),
-                                                  dropout_concentration(dropout_concentration),
-                                                  dropout_rate_prior(dropout_rate_prior),
-                                                  theta(theta),
-                                                  variant_reads(),
-                                                  total_reads(),
-                                                  region_reads(),
-                                                  region_weights(),
-                                                  locus_regions(),
-                                                  locus_samples(),
-                                                  is_germline(),
-                                                  is_sbs(),
-                                                  region_to_chr(),
-                                                  reliable_regions(),
-                                                  chromosomes(),
-                                                  cell_read_sums(),
-                                                  cell_samples(),
-                                                  samples(),
-                                                  variant_orders(),
-                                                  iters(iters),
-                                                  delta(delta),
-                                                  CNA_penalty(CNA_penalty),
-                                                  tau1(tau1),
-                                                  tau2(tau2) {}
+                           const double & tau2,
+                           const double & psi,
+                           const int & max_cn,
+                           const bool & sample_agnostic) : fp(fp),
+                                                           fn(fn), 
+                                                           fn_indel(fn_indel),
+                                                           num_cells(0), 
+                                                           num_loci(0), 
+                                                           num_regions(0),
+                                                           hom_precision(hom_precision),
+                                                           het_precision(het_precision),
+                                                           hom_precision_indel(hom_precision_indel),
+                                                           het_precision_indel(het_precision_indel),
+                                                           dropout_concentration(dropout_concentration),
+                                                           dropout_rate_prior(dropout_rate_prior),
+                                                           theta(theta),
+                                                           variant_reads(),
+                                                           total_reads(),
+                                                           region_reads(),
+                                                           region_weights(),
+                                                           locus_regions(),
+                                                           locus_samples(),
+                                                           is_germline(),
+                                                           is_sbs(),
+                                                           region_to_chr(),
+                                                           reliable_regions(),
+                                                           chromosomes(),
+                                                           cell_read_sums(),
+                                                           cell_samples(),
+                                                           samples(),
+                                                           variant_orders(),
+                                                           iters(iters),
+                                                           delta(delta),
+                                                           CNA_penalty(CNA_penalty),
+                                                           tau1(tau1),
+                                                           tau2(tau2),
+                                                           psi(psi),
+                                                           max_cn(max_cn),
+                                                           sample_agnostic(sample_agnostic) {}
 
 const span<const int> data_manager::get_sample_span(const int & sample, const vector<int> & vec) const
 {
@@ -112,6 +119,7 @@ void data_manager::fill(const vector<vector<int>> & character_matrix,
     this->cell_read_sums = sum(this->region_reads, 1);
     this->reliable_regions.resize(this->samples.size(), vector<bool>(this->num_regions, false));
     this->region_weights.resize(this->samples.size(), vector<double>(this->num_regions, 0.0));
+    this->region_sums.resize(this->num_regions, 0);
 
     // define variant orders for each sample
     for(int i = 0; i < static_cast<int>(this->samples.size()); ++i)
@@ -119,33 +127,18 @@ void data_manager::fill(const vector<vector<int>> & character_matrix,
     this->define_variant_orders();
 }
 
-void data_manager::compute_region_weights(const int sample, 
-                                          const vector<int> & cell_assignments, 
-                                          const vector<int> & parents)
+void data_manager::collect_region_sums(const int sample, 
+                                       const vector<int> & cell_assignments, 
+                                       const vector<int> & parents,
+                                       const bool reset_region_sums)
 {
-    auto threshold = 1.0 / (double)this->num_regions / 15.0;
-    vector<int> region_sums(this->num_regions, 0);
+    // reset the region sums to 0's
+    if(reset_region_sums)
+        std::fill(region_sums.begin(), region_sums.end(), 0); 
     tuple<int, int> indices = this->sample_indices.at(sample);
     const int sample_start_index = get<0>(indices);
     const int sample_end_index = get<1>(indices);
     const int num_cells_sample = sample_end_index - sample_start_index;
-
-    // determine which regions are reliable (same as COMPASS)
-    for(auto r_i = 0; r_i < this->num_regions; ++r_i)
-    {
-        double mean_frac = 0.0;
-        int under_threshold = 0;
-        for(int i = sample_start_index; i < sample_start_index + num_cells_sample; ++i)
-        {
-            double frac = (double)this->region_reads[i][r_i] / (double)this->cell_read_sums[i];
-            mean_frac += frac / (double)num_cells_sample;
-            if(frac <= threshold)
-                under_threshold += 1;
-        }
-
-        if(((double)under_threshold / (double)num_cells_sample) <= 0.04 && mean_frac >= 0.2 / (double)this->num_regions)
-            this->reliable_regions[sample][r_i] = true;
-    }
 
     // if root has no cells assigned to it, then the sample must consist of 100% cancerous cells
     // and if there are two distinct lineages coming off of the root, then we cannot appl
@@ -161,21 +154,31 @@ void data_manager::compute_region_weights(const int sample,
 
     int root_node = ROOT;
     int min_cells = 5;
+    int min_cells_nonroot_node = 40;
+
+    for(const auto & pair : assignment_counts) 
+        cout << pair.first << ": " << pair.second << endl;
+    print_vector(parents, "parents");
     if(assignment_counts[ROOT] < min_cells)
     {
         int child_of_root = -1;
+        int num_cells_assigned_to_node = 0;
         for(int i = 0; i < static_cast<int>(parents.size()); ++i)
         {
-            if(parents[i] == ROOT)
+            if(parents[i] == ROOT && assignment_counts.count(i+1))
             {
-                if(child_of_root == -1 && assignment_counts[i+1] >= min_cells)
+                if(child_of_root == -1 && assignment_counts[i+1] >= std::max(min_cells_nonroot_node,num_cells_assigned_to_node))
+                {
                     child_of_root = i+1;
-                else 
-                    throw std::runtime_error("Data likely has 100% purity and some cells likely have no common ancestor");
+                    num_cells_assigned_to_node = assignment_counts[i+1];
+                }
 
             }
         }
+        if(child_of_root == -1)
+            throw std::runtime_error("Data likely has 100% purity and some cells likely have no common ancestor");
         root_node = child_of_root;
+
     }
 
     // compute probability a read falls in a region
@@ -186,9 +189,61 @@ void data_manager::compute_region_weights(const int sample,
                 region_sums[r_i] += this->region_reads[i][r_i];
     }
     
-    int total = accumulate(region_sums.begin(), region_sums.end(), 0);
+}
+
+void data_manager::compute_reliable_regions(const int sample)
+{
+    auto threshold = 1.0 / (double)this->num_regions / 15.0; 
+    int sample_start_index;
+    int sample_end_index;
+
+    if(sample >= 0)
+    {
+        tuple<int, int> indices = this->sample_indices.at(sample);
+        sample_start_index = get<0>(indices);
+        sample_end_index = get<1>(indices);
+    }
+    else
+    {
+        sample_start_index = 0;
+        sample_end_index = this->cell_samples.size();
+    }
+    const int num_cells_sample = sample_end_index - sample_start_index;
+
+    // determine which regions are reliable (same as COMPASS)
     for(auto r_i = 0; r_i < this->num_regions; ++r_i)
-        this->region_weights[sample][r_i] = (double)region_sums[r_i] / (double)total;
+    {
+        double mean_frac = 0.0;
+        int under_threshold = 0;
+        for(int i = sample_start_index; i < sample_start_index + num_cells_sample; ++i)
+        {
+            double frac = (double)this->region_reads[i][r_i] / (double)this->cell_read_sums[i];
+            mean_frac += frac / (double)num_cells_sample;
+            if(frac <= threshold)
+                under_threshold += 1;
+        }
+
+        if(sample >= 0)
+        {
+            if(((double)under_threshold / (double)num_cells_sample) <= 0.04 && mean_frac >= 0.2 / (double)this->num_regions)
+                this->reliable_regions[sample][r_i] = true;
+        }
+        else
+        {
+            for(auto s_i = 0; s_i < static_cast<int>(this->samples.size()); ++s_i)
+            {
+                if(((double)under_threshold / (double)num_cells_sample) <= 0.04 && mean_frac >= 0.2 / (double)this->num_regions)
+                    this->reliable_regions[s_i][r_i] = true;
+            }
+        }
+    }
+}
+
+void data_manager::compute_region_weights(const int sample)
+{
+    int total = accumulate(this->region_sums.begin(), this->region_sums.end(), 0);
+    for(auto r_i = 0; r_i < this->num_regions; ++r_i)
+        this->region_weights[sample][r_i] = (double)this->region_sums[r_i] / (double)total;
 }
 
 void data_manager::find_sample_indices(void)

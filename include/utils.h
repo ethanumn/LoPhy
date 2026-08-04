@@ -60,7 +60,11 @@ enum CNA_TYPE {
   LOSS_ALT,
   LOSS_REF,
   GAIN_ALT,
+  GAIN_ALT_2,
+  GAIN_ALT_3,
   GAIN_REF,
+  GAIN_REF_2,
+  GAIN_REF_3,
   CNLOH_ALT,
   CNLOH_REF
 };
@@ -761,7 +765,15 @@ struct SCORE_CACHE
                                    hom_precision,
                                    het_precision);
     }
-            
+
+    size_t size() const
+    {
+        return locus_llh.size()
+            + cn_llh.size()
+            + E_dropped_alt_alleles.size()
+            + E_dropped_ref_alleles.size();
+    }
+                
     void clear(void) 
     {
         this->locus_llh.clear();
@@ -802,7 +814,10 @@ struct Params
                CNA_penalty(85.0),
                tau1(0.5),
                tau2(0.1),
-               seed(time(NULL)) {}
+               psi(1.05),
+               max_cn(3),
+               seed(time(NULL)),
+               sample_agnostic(false) {}
 
     string character_matrix_file; // character matrix file where rows are cells and columns are mutations
     string meta_file; // meta data file
@@ -827,5 +842,8 @@ struct Params
     double CNA_penalty; // penalty for including disjoint CNAs 
     double tau1; // probability of performing an SNV relocation during hill climbing
     double tau2; // probability adding a CNA clone during hill climbing
+    double psi; // likelihood penalty term for adding/removing CNAs, scales relative to number of cells in input
+    int max_cn; // maximum copy number allowed for any region
     int seed;
+    bool sample_agnostic; // if true, the algorithm will not use sample-specific information when computing region probabilities
 };

@@ -1,0 +1,40 @@
+{
+"nodes":[
+	{
+		"name": "Node 0",
+		"parent": "-",
+		"SNV": ["FLT3_intronic","PTPN11_intronic"],
+		"CNA": []
+	},
+	{
+		"name": "Node 1",
+		"parent": "Node 3",
+		"SNV": [],
+		"CNA": ["CNLOH FLT3"]
+	},
+	{
+		"name": "Node 2",
+		"parent": "Node 0",
+		"SNV": ["FLT3-ITD"],
+		"CNA": []
+	},
+	{
+		"name": "Node 3",
+		"parent": "Node 5",
+		"SNV": ["WT1_pR370fs"],
+		"CNA": []
+	},
+	{
+		"name": "Node 4",
+		"parent": "Node 1",
+		"SNV": ["WT1_pR380fs"],
+		"CNA": []
+	},
+	{
+		"name": "Node 5",
+		"parent": "Node 2",
+		"SNV": ["NPM1_pW288fs"],
+		"CNA": ["Gain chr10","Gain chr16"]
+	}
+]
+}

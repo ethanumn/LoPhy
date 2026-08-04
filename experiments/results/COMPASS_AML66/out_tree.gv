@@ -1,0 +1,34 @@
+digraph G{
+node [color=dimgray fontsize=24 fontcolor=black fontname=Helvetica penwidth=5];
+5 -> 1 [color=dimgray penwidth=4 weight=2];
+3 -> 2 [color=dimgray penwidth=4 weight=2];
+1 -> 3 [color=dimgray penwidth=4 weight=2];
+3 -> 4 [color=dimgray penwidth=4 weight=2];
+0 -> 5 [color=dimgray penwidth=4 weight=2];
+3 -> 6 [color=dimgray penwidth=4 weight=2];
+1 -> 7 [color=dimgray penwidth=4 weight=2];
+0[label=< >];
+1[label=<SRSF2_pP95L(chr17)<br/>>];
+2[label=<NRAS_pG12S(chr1)<br/>>];
+3[label=<PTPN11_pG503E(chr12)<br/>>];
+4[label=<NRAS_pG12D(chr1)<br/>>];
+5[label=<ASXL1_pG646fs(chr20)<br/>>];
+6[label=<KRAS_pG12D(chr12)<br/>>];
+7[label=<IDH2_pR140W(chr15)<br/>>];
+0 -> 8 [dir=none style=dashed weight=1 penwidth=5 color=lightcoral];
+1 -> 9 [dir=none style=dashed weight=1 penwidth=5 color=skyblue3];
+2 -> 10 [dir=none style=dashed weight=1 penwidth=5 color=sandybrown];
+3 -> 11 [dir=none style=dashed weight=1 penwidth=5 color=paleturquoise3];
+4 -> 12 [dir=none style=dashed weight=1 penwidth=5 color=thistle];
+5 -> 13 [dir=none style=dashed weight=1 penwidth=5 color=darkolivegreen3];
+6 -> 14 [dir=none style=dashed weight=1 penwidth=5 color=lightpink];
+7 -> 15 [dir=none style=dashed weight=1 penwidth=5 color=mediumpurple];
+8[label="2201 cells\n16\%" style = filled width=1.34122 height=1.34122 color=lightcoral];
+9[label="1113 cells\n8\%" style = filled width=0.953755 height=0.953755 color=skyblue3];
+10[label="2628 cells\n19\%" style = filled width=1.46555 height=1.46555 color=sandybrown];
+11[label="2764 cells\n20\%" style = filled width=1.503 height=1.503 color=paleturquoise3];
+12[label="143 cells\n1\%" style = filled width=0.341867 height=0.341867 color=thistle];
+13[label="4541 cells\n33\%" style = filled width=1.92648 height=1.92648 color=darkolivegreen3];
+14[label="108 cells\n1\%" style = filled width=0.297099 height=0.297099 color=lightpink];
+15[label="97 cells\n1\%" style = filled width=0.281563 height=0.281563 color=mediumpurple];
+}

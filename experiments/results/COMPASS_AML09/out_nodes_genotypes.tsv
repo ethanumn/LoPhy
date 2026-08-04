@@ -1,0 +1,7 @@
+node	NPM1_pW288fs	chr6_17076840_intergenic	chr6_40116264_intergenic	WT1_pP372fs	KRAS_pG13D	PTPN11_intronic	FLT3_pD835E	FLT3_pD835Y	FLT3-ITD_1	FLT3-ITD_2
+Node 0	1	1	1	0	0	1	0	1	0	0
+Node 1	1	1	1	0	0	1	1	1	0	0
+Node 2	1	1	1	0	0	1	0	1	1	0
+Node 3	1	1	1	0	0	1	0	1	0	1
+Node 4	1	1	1	0	1	1	0	1	0	0
+Node 5	1	1	1	1	0	1	0	1	0	1

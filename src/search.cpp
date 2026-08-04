@@ -85,6 +85,7 @@ Tree add_remove_CNAs(Tree tree,
     iota(indices.begin(), indices.end(), 0); 
     shuffle(indices.begin(), indices.end(), gen);
 
+    const double original_tree_likelihood = tree.get_llh();
     Tree best_tree = tree;
 
     int n_to_eval = std::min(1,n_possibilities);
@@ -99,7 +100,25 @@ Tree add_remove_CNAs(Tree tree,
         const auto region = cna_possibilities[indices[idx]].second;
 
         // determine which types of CNAs are valid for this clone
-        vector<CNA_TYPE> valid_cnas = {NA, LOSS_REF, GAIN_REF};
+        vector<CNA_TYPE> valid_cnas;
+        const int max_cn = manager.get_max_cn();
+        switch(max_cn) {
+            case 5:
+                valid_cnas = {NA, LOSS_REF, GAIN_REF, GAIN_REF_2, GAIN_REF_3};
+                break;
+            case 4:
+                valid_cnas = {NA, LOSS_REF, GAIN_REF, GAIN_REF_2};
+                break;
+            case 3:
+                valid_cnas = {NA, LOSS_REF, GAIN_REF};
+                break;
+            case 2:
+                valid_cnas = {NA, LOSS_REF};
+                break;
+            default:
+                throw std::runtime_error("max_cn must be at least 2 for there to be any CNAs");
+        }
+
         vector<int> loci_in_region;
         bool at_least_one_variant = false;
 
@@ -123,8 +142,25 @@ Tree add_remove_CNAs(Tree tree,
                         at_least_one_variant = true;
                         valid_cnas.push_back(LOSS_ALT);
                         valid_cnas.push_back(CNLOH_ALT);
-                        valid_cnas.push_back(GAIN_ALT);
                         valid_cnas.push_back(CNLOH_REF);
+                        switch(max_cn) {
+                            case 5:
+                                valid_cnas.push_back(GAIN_ALT);
+                                valid_cnas.push_back(GAIN_ALT_2);
+                                valid_cnas.push_back(GAIN_ALT_3);
+                                break;
+                            case 4:
+                                valid_cnas.push_back(GAIN_ALT);
+                                valid_cnas.push_back(GAIN_ALT_2);
+                                break;
+                            case 3:
+                                valid_cnas.push_back(GAIN_ALT);
+                                break;
+                            case 2:
+                                break;
+                            default:
+                                throw std::runtime_error("max_cn must be at least 2 for there to be any CNAs");
+                        }
                     }
                 }
             }
@@ -140,8 +176,18 @@ Tree add_remove_CNAs(Tree tree,
 
             tree_prime.update(manager, sample); // update tree with new data structures
             tree_prime.score(manager, sample, cache);
-            if(tree_prime.get_llh() - best_tree.get_llh() > num_cells * log(1.05)) 
+            if(cna_type == GAIN_REF_2 || cna_type == GAIN_REF_3 || cna_type == GAIN_ALT_2 || cna_type == GAIN_ALT_3)
+                cout << "Evaluating CNA: " << cna_type << " for clone " << clone << " in region " << region << " with likelihood: " << tree_prime.get_llh() << endl;
+
+            const double delta_best = tree_prime.get_llh() - best_tree.get_llh();
+
+            const double delta_original = tree_prime.get_llh() - original_tree_likelihood;
+
+            // only add the CNA if it improves the likelihood of the tree and the likelihood of the tree is better than the original tree by a significant margin (to avoid overfitting)
+            if ((delta_best > 0) && (delta_original > num_cells * log(manager.get_psi())))
+            {
                 best_tree = tree_prime;
+            }
         }
     }
     return best_tree;
@@ -175,10 +221,14 @@ Tree find_extension(Tree tree,
             clones_in_sample.push_back(index+1);
 
     // initialize variables for search
-    vector<Tree> S;
     vector<int> children;
     vector<vector<int>> choices;
     mt19937 gen(seed);
+
+    // keeping track of best tree
+    bool found_tree = false;
+    Tree best_tree = tree;
+    double best_llh = -std::numeric_limits<double>::infinity();
 
     // find possible parents for clone v 
     vector<int> possible_parents = {ROOT};
@@ -186,9 +236,6 @@ Tree find_extension(Tree tree,
         if(tree.get_parent(i) != NO_PARENT)
             if((int)tree.get_parent(i) <= 2*num_loci)
                 possible_parents.push_back(i + 1); 
-
-    // reserve an estimated capacity to avoid repeated reallocations and copies
-    S.reserve(possible_parents.size() * 4);
 
     // try all ways to incorporate v into the tree
     for(const auto & u : possible_parents) 
@@ -202,7 +249,12 @@ Tree find_extension(Tree tree,
         tree_prime.score(manager, sample, cache);
         if(infer_cnas)
             tree_prime = add_remove_CNAs(tree_prime, manager, cache, sample, gen, true); // sample CNAs
-        S.emplace_back(std::move(tree_prime));
+        if(!found_tree || tree_prime.get_llh() > best_llh)
+        {
+            best_llh = tree_prime.get_llh();
+            best_tree = std::move(tree_prime);
+            found_tree = true;
+        }
 
         // (2) score v is added to clone u
         auto it = find(clones_in_sample.begin(), clones_in_sample.end(), u);
@@ -214,7 +266,12 @@ Tree find_extension(Tree tree,
             tree_prime.score(manager, sample, cache);
             if(infer_cnas)
                 tree_prime = add_remove_CNAs(tree_prime, manager, cache, sample, gen, true); // sample CNAs
-            S.emplace_back(std::move(tree_prime));
+            if(!found_tree || tree_prime.get_llh() > best_llh)
+            {
+                best_llh = tree_prime.get_llh();
+                best_tree = std::move(tree_prime);
+                found_tree = true;
+            }
         }
 
         // (3) score u -> v -> ch, where ch is some subset of child clones first identified in this sample
@@ -248,23 +305,21 @@ Tree find_extension(Tree tree,
             tree_prime.score(manager, sample, cache);
             if(infer_cnas)
                 tree_prime = add_remove_CNAs(tree_prime, manager, cache, sample, gen, true); // sample CNAs
-            S.emplace_back(std::move(tree_prime));
-
-
+            if(!found_tree || tree_prime.get_llh() > best_llh)
+            {
+                best_llh = tree_prime.get_llh();
+                best_tree = std::move(tree_prime);
+                found_tree = true;
+            }
         }
-        
     }
 
-    // verify we found at least one valid extension
-    if(S.size() == 0)
+    if(!found_tree)
         throw std::runtime_error("No valid extensions for tree found!");
-    
-    // sort all extensions by log likelihood in descending order
-    sort(S.begin(), S.end(), std::greater<Tree>());
 
-    S[0].set_phi_hat(S[0].get_llh() + phi_hat_prev); // sum of log likelihoods for approximate 
+    best_tree.set_phi_hat(best_tree.get_llh() + phi_hat_prev);
 
-    return S[0];
+    return best_tree;
 }
 
 /* Main search function */
@@ -294,7 +349,7 @@ Tree search(Tree tree,
     else 
         variants_in_sample = manager.get_variant_order(sample);
 
-    // add all variants from this sample to the tree
+    // add all variants from this sample to the tree to initialize tree structure 
     for(const auto & v : variants_in_sample)
     {
         seed = (seed + 1) % numeric_limits<int>::max();
@@ -315,7 +370,13 @@ Tree search(Tree tree,
     }
 
     // hill climbing
-    if(infer_cnas && variants_in_sample.size() > 0)
+    // the base case is: if we don't have any new variants in this sample, we'll just assign cells to clones and score the tree 
+    // otherwise, perform a hill climbing search to find a better tree:
+    // (1) draw a random number alpha ~ U(0,1)
+    // (2) if alpha < tau1, randomly select a variant v and remove it from the tree and find the best way to re-add it to the tree
+    // (3) if alpha - tau1 < tau2, add a dummy clone to the tree and find the best way to add it and modify the CNA inheritance
+    // (4) otherwise, find the best way to add/remove CNAs from the tree
+    if(variants_in_sample.size() > 0)
     {
         mt19937 gen(seed);
 
@@ -332,11 +393,19 @@ Tree search(Tree tree,
         const int delta = manager.get_delta();
         while(i < iters && n_since_improvement < delta)
         {
-            double alpha = U(gen); // draw move randomly 
+
+            // make sure cache doesn't get too large
+            if(cache.size() > 100000)
+            {
+                cache.clear();
+            }
+            
+            double alpha = U(gen); // (1)
             bool improving = true;
             Tree tree_prime = tree;
 
-            if(alpha < tau1)
+            
+            if(alpha < tau1 || !infer_cnas) // (2)
             {
                 const int v = variants_in_sample[v_dist(gen)];
                 tree_prime.remove_variant(v, variants_in_sample, manager);
@@ -351,7 +420,7 @@ Tree search(Tree tree,
             else
             {
 
-                if(alpha-tau1 < tau2)
+                if(alpha-tau1 < tau2) // (3)
                 {
                     const auto v = tree_prime.add_dummy_clone(sample);
 
@@ -365,7 +434,7 @@ Tree search(Tree tree,
 
                     improving = !tree_prime.remove_empty_dummy_clones(sample);
                 }
-                else 
+                else // (4)
                 {
                     tree_prime = add_remove_CNAs(tree_prime, manager, cache, sample, gen); 
                 }

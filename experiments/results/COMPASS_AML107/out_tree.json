@@ -1,0 +1,22 @@
+{
+"nodes":[
+	{
+		"name": "Node 0",
+		"parent": "-",
+		"SNV": ["DNMT3A_pK202N"],
+		"CNA": []
+	},
+	{
+		"name": "Node 1",
+		"parent": "Node 2",
+		"SNV": ["TET2_p1217"],
+		"CNA": []
+	},
+	{
+		"name": "Node 2",
+		"parent": "Node 0",
+		"SNV": ["DNMT3A_pR736C","TP53_splice-donor","TP53_pR248Q"],
+		"CNA": ["Loss EZH2","Loss ETV6","Loss FLT3"]
+	}
+]
+}

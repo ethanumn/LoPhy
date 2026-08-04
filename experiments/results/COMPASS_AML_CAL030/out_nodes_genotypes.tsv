@@ -1,0 +1,8 @@
+node	NRAS_pG13R	NRAS_pG12S	KRAS_pG12A	PTPN11_pG60V	TP53_pP151H
+Node 0	0	0	0	0	0
+Node 1	0	0	0	1	1
+Node 2	0	1	0	0	1
+Node 3	0	0	0	0	1
+Node 4	1	0	0	0	1
+Node 5	0	0	1	0	1
+Node 6	0	0	0	0	1

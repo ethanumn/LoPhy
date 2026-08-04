@@ -1,0 +1,2185 @@
+Step 1 - sample 0
+in find extension
+clone_index = 3, clone_parent = 0, size = 10
+in find extension
+clone_index = 2, clone_parent = 0, size = 10
+clone_index = 2, clone_parent = 0, size = 10
+clone_index = 3, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 24, size = 10
+in find extension
+clone_index = 9, clone_parent = 0, size = 10
+clone_index = 9, clone_parent = 0, size = 10
+clone_index = 3, clone_parent = 10, size = 10
+clone_index = 9, clone_parent = 3, size = 10
+clone_index = 9, clone_parent = 23, size = 10
+clone_index = 9, clone_parent = 4, size = 10
+clone_index = 9, clone_parent = 24, size = 10
+clone_index = 9, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 10, size = 10
+in find extension
+clone_index = 4, clone_parent = 0, size = 10
+clone_index = 4, clone_parent = 0, size = 10
+clone_index = 9, clone_parent = 5, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 23, size = 10
+clone_index = 4, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 24, size = 10
+clone_index = 4, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 5, size = 10
+clone_index = 4, clone_parent = 10, size = 10
+clone_index = 4, clone_parent = 30, size = 10
+clone_index = 4, clone_parent = 10, size = 10
+clone_index = 3, clone_parent = 5, size = 10
+in find extension
+clone_index = 7, clone_parent = 0, size = 10
+clone_index = 7, clone_parent = 0, size = 10
+clone_index = 9, clone_parent = 8, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 7, clone_parent = 23, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 8, size = 10
+clone_index = 7, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 24, size = 10
+clone_index = 7, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 8, size = 10
+clone_index = 7, clone_parent = 5, size = 10
+clone_index = 7, clone_parent = 25, size = 10
+clone_index = 7, clone_parent = 10, size = 10
+clone_index = 7, clone_parent = 30, size = 10
+clone_index = 7, clone_parent = 10, size = 10
+clone_index = 3, clone_parent = 8, size = 10
+in find extension
+clone_index = 0, clone_parent = 0, size = 10
+clone_index = 0, clone_parent = 0, size = 10
+clone_index = 9, clone_parent = 1, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 23, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 1, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 24, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 1, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 1, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 1, size = 10
+clone_index = 7, clone_parent = 1, size = 10
+clone_index = 0, clone_parent = 5, size = 10
+clone_index = 0, clone_parent = 25, size = 10
+clone_index = 0, clone_parent = 8, size = 10
+clone_index = 0, clone_parent = 28, size = 10
+clone_index = 0, clone_parent = 10, size = 10
+clone_index = 0, clone_parent = 30, size = 10
+clone_index = 0, clone_parent = 10, size = 10
+clone_index = 3, clone_parent = 1, size = 10
+in find extension
+clone_index = 5, clone_parent = 0, size = 10
+clone_index = 5, clone_parent = 0, size = 10
+clone_index = 9, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 1, size = 10
+clone_index = 5, clone_parent = 21, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 23, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 5, clone_parent = 24, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 5, size = 10
+clone_index = 5, clone_parent = 25, size = 10
+clone_index = 5, clone_parent = 8, size = 10
+clone_index = 5, clone_parent = 28, size = 10
+clone_index = 5, clone_parent = 10, size = 10
+clone_index = 5, clone_parent = 30, size = 10
+clone_index = 5, clone_parent = 10, size = 10
+clone_index = 3, clone_parent = 6, size = 10
+in find extension
+clone_index = 6, clone_parent = 0, size = 10
+clone_index = 6, clone_parent = 0, size = 10
+clone_index = 9, clone_parent = 7, size = 10
+clone_index = 6, clone_parent = 1, size = 10
+clone_index = 6, clone_parent = 21, size = 10
+clone_index = 6, clone_parent = 3, size = 10
+clone_index = 6, clone_parent = 23, size = 10
+clone_index = 6, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 7, size = 10
+clone_index = 6, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 7, size = 10
+clone_index = 6, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 7, size = 10
+clone_index = 5, clone_parent = 7, size = 10
+clone_index = 6, clone_parent = 4, size = 10
+clone_index = 6, clone_parent = 24, size = 10
+clone_index = 6, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 7, size = 10
+clone_index = 6, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 7, size = 10
+clone_index = 6, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 7, size = 10
+clone_index = 6, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 7, size = 10
+clone_index = 7, clone_parent = 7, size = 10
+clone_index = 6, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 7, size = 10
+clone_index = 0, clone_parent = 7, size = 10
+clone_index = 6, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 7, size = 10
+clone_index = 0, clone_parent = 7, size = 10
+clone_index = 6, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 7, size = 10
+clone_index = 7, clone_parent = 7, size = 10
+clone_index = 0, clone_parent = 7, size = 10
+clone_index = 6, clone_parent = 5, size = 10
+clone_index = 6, clone_parent = 25, size = 10
+clone_index = 6, clone_parent = 6, size = 10
+clone_index = 6, clone_parent = 26, size = 10
+clone_index = 6, clone_parent = 8, size = 10
+clone_index = 6, clone_parent = 28, size = 10
+clone_index = 6, clone_parent = 10, size = 10
+clone_index = 6, clone_parent = 30, size = 10
+clone_index = 6, clone_parent = 10, size = 10
+clone_index = 3, clone_parent = 7, size = 10
+in find extension
+clone_index = 8, clone_parent = 0, size = 10
+clone_index = 8, clone_parent = 0, size = 10
+clone_index = 9, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 1, size = 10
+clone_index = 8, clone_parent = 21, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 23, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 9, size = 10
+clone_index = 5, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 8, clone_parent = 24, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 9, size = 10
+clone_index = 7, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 9, size = 10
+clone_index = 0, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 9, size = 10
+clone_index = 0, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 9, size = 10
+clone_index = 7, clone_parent = 9, size = 10
+clone_index = 0, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 5, size = 10
+clone_index = 8, clone_parent = 25, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 26, size = 10
+clone_index = 8, clone_parent = 7, size = 10
+clone_index = 8, clone_parent = 27, size = 10
+clone_index = 8, clone_parent = 8, size = 10
+clone_index = 8, clone_parent = 28, size = 10
+clone_index = 8, clone_parent = 8, size = 10
+clone_index = 6, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 10, size = 10
+clone_index = 8, clone_parent = 30, size = 10
+clone_index = 8, clone_parent = 10, size = 10
+clone_index = 3, clone_parent = 9, size = 10
+num cells attached to root = 375
+
+
+Step 1 - sample 1
+in find extension
+clone_index = 3, clone_parent = 0, size = 10
+in find extension
+clone_index = 2, clone_parent = 0, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+in find extension
+clone_index = 9, clone_parent = 0, size = 10
+clone_index = 9, clone_parent = 3, size = 10
+clone_index = 9, clone_parent = 4, size = 10
+in find extension
+clone_index = 4, clone_parent = 0, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 10, size = 10
+in find extension
+clone_index = 7, clone_parent = 0, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 7, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 5, size = 10
+clone_index = 7, clone_parent = 10, size = 10
+in find extension
+clone_index = 0, clone_parent = 0, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 5, size = 10
+clone_index = 0, clone_parent = 8, size = 10
+clone_index = 0, clone_parent = 10, size = 10
+in find extension
+clone_index = 5, clone_parent = 0, size = 10
+clone_index = 5, clone_parent = 1, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 5, clone_parent = 5, size = 10
+clone_index = 5, clone_parent = 8, size = 10
+clone_index = 5, clone_parent = 10, size = 10
+in find extension
+clone_index = 6, clone_parent = 0, size = 10
+clone_index = 6, clone_parent = 1, size = 10
+clone_index = 6, clone_parent = 3, size = 10
+clone_index = 6, clone_parent = 4, size = 10
+clone_index = 6, clone_parent = 5, size = 10
+clone_index = 6, clone_parent = 6, size = 10
+clone_index = 6, clone_parent = 8, size = 10
+clone_index = 6, clone_parent = 10, size = 10
+in find extension
+clone_index = 8, clone_parent = 0, size = 10
+clone_index = 8, clone_parent = 1, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 8, clone_parent = 5, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 7, size = 10
+clone_index = 8, clone_parent = 8, size = 10
+clone_index = 8, clone_parent = 10, size = 10
+num cells attached to root = 1292
+
+
+Step 1 - sample 2
+in find extension
+clone_index = 3, clone_parent = 0, size = 10
+in find extension
+clone_index = 2, clone_parent = 0, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+in find extension
+clone_index = 9, clone_parent = 0, size = 10
+clone_index = 9, clone_parent = 3, size = 10
+clone_index = 9, clone_parent = 4, size = 10
+in find extension
+clone_index = 4, clone_parent = 0, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 10, size = 10
+in find extension
+clone_index = 7, clone_parent = 0, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 7, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 5, size = 10
+clone_index = 7, clone_parent = 10, size = 10
+in find extension
+clone_index = 0, clone_parent = 0, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 5, size = 10
+clone_index = 0, clone_parent = 8, size = 10
+clone_index = 0, clone_parent = 10, size = 10
+in find extension
+clone_index = 5, clone_parent = 0, size = 10
+clone_index = 5, clone_parent = 1, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 5, clone_parent = 5, size = 10
+clone_index = 5, clone_parent = 8, size = 10
+clone_index = 5, clone_parent = 10, size = 10
+in find extension
+clone_index = 6, clone_parent = 0, size = 10
+clone_index = 6, clone_parent = 1, size = 10
+clone_index = 6, clone_parent = 3, size = 10
+clone_index = 6, clone_parent = 4, size = 10
+clone_index = 6, clone_parent = 5, size = 10
+clone_index = 6, clone_parent = 6, size = 10
+clone_index = 6, clone_parent = 8, size = 10
+clone_index = 6, clone_parent = 10, size = 10
+in find extension
+clone_index = 8, clone_parent = 0, size = 10
+clone_index = 8, clone_parent = 1, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 8, clone_parent = 5, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 7, size = 10
+clone_index = 8, clone_parent = 8, size = 10
+clone_index = 8, clone_parent = 10, size = 10
+in find extension
+clone_index = 1, clone_parent = 0, size = 10
+clone_index = 1, clone_parent = 1, size = 10
+clone_index = 1, clone_parent = 3, size = 10
+clone_index = 1, clone_parent = 4, size = 10
+clone_index = 1, clone_parent = 5, size = 10
+clone_index = 1, clone_parent = 6, size = 10
+clone_index = 1, clone_parent = 7, size = 10
+clone_index = 1, clone_parent = 8, size = 10
+clone_index = 1, clone_parent = 9, size = 10
+clone_index = 1, clone_parent = 10, size = 10
+num cells attached to root = 338
+
+
+
+
+Step 2 - sample 0
+in find extension
+clone_index = 3, clone_parent = 0, size = 10
+in find extension
+clone_index = 2, clone_parent = 0, size = 10
+clone_index = 2, clone_parent = 0, size = 10
+clone_index = 3, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 24, size = 10
+in find extension
+clone_index = 9, clone_parent = 0, size = 10
+clone_index = 9, clone_parent = 0, size = 10
+clone_index = 3, clone_parent = 10, size = 10
+clone_index = 9, clone_parent = 3, size = 10
+clone_index = 9, clone_parent = 23, size = 10
+clone_index = 9, clone_parent = 4, size = 10
+clone_index = 9, clone_parent = 24, size = 10
+clone_index = 9, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 10, size = 10
+in find extension
+clone_index = 4, clone_parent = 0, size = 10
+clone_index = 4, clone_parent = 0, size = 10
+clone_index = 9, clone_parent = 5, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 23, size = 10
+clone_index = 4, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 24, size = 10
+clone_index = 4, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 5, size = 10
+clone_index = 4, clone_parent = 10, size = 10
+clone_index = 4, clone_parent = 30, size = 10
+clone_index = 4, clone_parent = 10, size = 10
+clone_index = 3, clone_parent = 5, size = 10
+in find extension
+clone_index = 7, clone_parent = 0, size = 10
+clone_index = 7, clone_parent = 0, size = 10
+clone_index = 9, clone_parent = 8, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 7, clone_parent = 23, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 8, size = 10
+clone_index = 7, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 24, size = 10
+clone_index = 7, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 8, size = 10
+clone_index = 7, clone_parent = 5, size = 10
+clone_index = 7, clone_parent = 25, size = 10
+clone_index = 7, clone_parent = 10, size = 10
+clone_index = 7, clone_parent = 30, size = 10
+clone_index = 7, clone_parent = 10, size = 10
+clone_index = 3, clone_parent = 8, size = 10
+in find extension
+clone_index = 0, clone_parent = 0, size = 10
+clone_index = 0, clone_parent = 0, size = 10
+clone_index = 9, clone_parent = 1, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 23, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 1, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 24, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 1, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 1, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 1, size = 10
+clone_index = 7, clone_parent = 1, size = 10
+clone_index = 0, clone_parent = 5, size = 10
+clone_index = 0, clone_parent = 25, size = 10
+clone_index = 0, clone_parent = 8, size = 10
+clone_index = 0, clone_parent = 28, size = 10
+clone_index = 0, clone_parent = 10, size = 10
+clone_index = 0, clone_parent = 30, size = 10
+clone_index = 0, clone_parent = 10, size = 10
+clone_index = 3, clone_parent = 1, size = 10
+in find extension
+clone_index = 5, clone_parent = 0, size = 10
+clone_index = 5, clone_parent = 0, size = 10
+clone_index = 9, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 1, size = 10
+clone_index = 5, clone_parent = 21, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 23, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 5, clone_parent = 24, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 5, size = 10
+clone_index = 5, clone_parent = 25, size = 10
+clone_index = 5, clone_parent = 8, size = 10
+clone_index = 5, clone_parent = 28, size = 10
+clone_index = 5, clone_parent = 10, size = 10
+clone_index = 5, clone_parent = 30, size = 10
+clone_index = 5, clone_parent = 10, size = 10
+clone_index = 3, clone_parent = 6, size = 10
+in find extension
+clone_index = 6, clone_parent = 0, size = 10
+clone_index = 6, clone_parent = 0, size = 10
+clone_index = 9, clone_parent = 7, size = 10
+clone_index = 6, clone_parent = 1, size = 10
+clone_index = 6, clone_parent = 21, size = 10
+clone_index = 6, clone_parent = 3, size = 10
+clone_index = 6, clone_parent = 23, size = 10
+clone_index = 6, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 7, size = 10
+clone_index = 6, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 7, size = 10
+clone_index = 6, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 7, size = 10
+clone_index = 5, clone_parent = 7, size = 10
+clone_index = 6, clone_parent = 4, size = 10
+clone_index = 6, clone_parent = 24, size = 10
+clone_index = 6, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 7, size = 10
+clone_index = 6, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 7, size = 10
+clone_index = 6, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 7, size = 10
+clone_index = 6, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 7, size = 10
+clone_index = 7, clone_parent = 7, size = 10
+clone_index = 6, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 7, size = 10
+clone_index = 0, clone_parent = 7, size = 10
+clone_index = 6, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 7, size = 10
+clone_index = 0, clone_parent = 7, size = 10
+clone_index = 6, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 7, size = 10
+clone_index = 7, clone_parent = 7, size = 10
+clone_index = 0, clone_parent = 7, size = 10
+clone_index = 6, clone_parent = 5, size = 10
+clone_index = 6, clone_parent = 25, size = 10
+clone_index = 6, clone_parent = 6, size = 10
+clone_index = 6, clone_parent = 26, size = 10
+clone_index = 6, clone_parent = 8, size = 10
+clone_index = 6, clone_parent = 28, size = 10
+clone_index = 6, clone_parent = 10, size = 10
+clone_index = 6, clone_parent = 30, size = 10
+clone_index = 6, clone_parent = 10, size = 10
+clone_index = 3, clone_parent = 7, size = 10
+in find extension
+clone_index = 8, clone_parent = 0, size = 10
+clone_index = 8, clone_parent = 0, size = 10
+clone_index = 9, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 1, size = 10
+clone_index = 8, clone_parent = 21, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 23, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 9, size = 10
+clone_index = 5, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 8, clone_parent = 24, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 9, size = 10
+clone_index = 7, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 9, size = 10
+clone_index = 0, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 9, size = 10
+clone_index = 0, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 9, size = 10
+clone_index = 7, clone_parent = 9, size = 10
+clone_index = 0, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 5, size = 10
+clone_index = 8, clone_parent = 25, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 26, size = 10
+clone_index = 8, clone_parent = 7, size = 10
+clone_index = 8, clone_parent = 27, size = 10
+clone_index = 8, clone_parent = 8, size = 10
+clone_index = 8, clone_parent = 28, size = 10
+clone_index = 8, clone_parent = 8, size = 10
+clone_index = 6, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 10, size = 10
+clone_index = 8, clone_parent = 30, size = 10
+clone_index = 8, clone_parent = 10, size = 10
+clone_index = 3, clone_parent = 9, size = 10
+i = 0
+removing and adding 0
+in remove variant
+clone_index = 0, clone_parent = -1, size = 10
+in find extension
+clone_index = 0, clone_parent = 0, size = 10
+clone_index = 0, clone_parent = 0, size = 10
+clone_index = 9, clone_parent = 1, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 23, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 1, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 1, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 1, size = 10
+clone_index = 5, clone_parent = 1, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 24, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 1, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 1, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 8, clone_parent = 1, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 1, size = 10
+clone_index = 7, clone_parent = 1, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 1, size = 10
+clone_index = 8, clone_parent = 1, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 1, size = 10
+clone_index = 8, clone_parent = 1, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 1, size = 10
+clone_index = 7, clone_parent = 1, size = 10
+clone_index = 8, clone_parent = 1, size = 10
+clone_index = 0, clone_parent = 5, size = 10
+clone_index = 0, clone_parent = 25, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 0, clone_parent = 26, size = 10
+clone_index = 0, clone_parent = 7, size = 10
+clone_index = 0, clone_parent = 27, size = 10
+clone_index = 0, clone_parent = 8, size = 10
+clone_index = 0, clone_parent = 28, size = 10
+clone_index = 0, clone_parent = 8, size = 10
+clone_index = 6, clone_parent = 1, size = 10
+clone_index = 0, clone_parent = 9, size = 10
+clone_index = 0, clone_parent = 29, size = 10
+clone_index = 0, clone_parent = 10, size = 10
+clone_index = 0, clone_parent = 30, size = 10
+clone_index = 0, clone_parent = 10, size = 10
+clone_index = 3, clone_parent = 1, size = 10
+i = 1
+removing and adding 5
+in remove variant
+clone_index = 5, clone_parent = -1, size = 10
+in find extension
+clone_index = 5, clone_parent = 0, size = 10
+clone_index = 5, clone_parent = 0, size = 10
+clone_index = 9, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 1, size = 10
+clone_index = 5, clone_parent = 21, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 23, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 5, clone_parent = 24, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 5, size = 10
+clone_index = 5, clone_parent = 25, size = 10
+clone_index = 5, clone_parent = 7, size = 10
+clone_index = 5, clone_parent = 27, size = 10
+clone_index = 5, clone_parent = 8, size = 10
+clone_index = 5, clone_parent = 28, size = 10
+clone_index = 5, clone_parent = 8, size = 10
+clone_index = 6, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 9, size = 10
+clone_index = 5, clone_parent = 29, size = 10
+clone_index = 5, clone_parent = 10, size = 10
+clone_index = 5, clone_parent = 30, size = 10
+clone_index = 5, clone_parent = 10, size = 10
+clone_index = 3, clone_parent = 6, size = 10
+i = 2
+removing and adding 5
+in remove variant
+clone_index = 5, clone_parent = -1, size = 10
+in find extension
+clone_index = 5, clone_parent = 0, size = 10
+clone_index = 5, clone_parent = 0, size = 10
+clone_index = 9, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 1, size = 10
+clone_index = 5, clone_parent = 21, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 23, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 5, clone_parent = 24, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 5, size = 10
+clone_index = 5, clone_parent = 25, size = 10
+clone_index = 5, clone_parent = 7, size = 10
+clone_index = 5, clone_parent = 27, size = 10
+clone_index = 5, clone_parent = 8, size = 10
+clone_index = 5, clone_parent = 28, size = 10
+clone_index = 5, clone_parent = 8, size = 10
+clone_index = 6, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 9, size = 10
+clone_index = 5, clone_parent = 29, size = 10
+clone_index = 5, clone_parent = 10, size = 10
+clone_index = 5, clone_parent = 30, size = 10
+clone_index = 5, clone_parent = 10, size = 10
+clone_index = 3, clone_parent = 6, size = 10
+i = 3
+removing and adding 8
+in remove variant
+clone_index = 8, clone_parent = -1, size = 10
+in find extension
+clone_index = 8, clone_parent = 0, size = 10
+clone_index = 8, clone_parent = 0, size = 10
+clone_index = 9, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 1, size = 10
+clone_index = 8, clone_parent = 21, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 23, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 9, size = 10
+clone_index = 5, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 8, clone_parent = 24, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 9, size = 10
+clone_index = 7, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 9, size = 10
+clone_index = 0, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 9, size = 10
+clone_index = 0, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 9, size = 10
+clone_index = 7, clone_parent = 9, size = 10
+clone_index = 0, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 5, size = 10
+clone_index = 8, clone_parent = 25, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 26, size = 10
+clone_index = 8, clone_parent = 7, size = 10
+clone_index = 8, clone_parent = 27, size = 10
+clone_index = 8, clone_parent = 8, size = 10
+clone_index = 8, clone_parent = 28, size = 10
+clone_index = 8, clone_parent = 8, size = 10
+clone_index = 6, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 10, size = 10
+clone_index = 8, clone_parent = 30, size = 10
+clone_index = 8, clone_parent = 10, size = 10
+clone_index = 3, clone_parent = 9, size = 10
+i = 4
+removing and adding 8
+in remove variant
+clone_index = 8, clone_parent = -1, size = 10
+in find extension
+clone_index = 8, clone_parent = 0, size = 10
+clone_index = 8, clone_parent = 0, size = 10
+clone_index = 9, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 1, size = 10
+clone_index = 8, clone_parent = 21, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 23, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 9, size = 10
+clone_index = 5, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 8, clone_parent = 24, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 9, size = 10
+clone_index = 7, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 9, size = 10
+clone_index = 0, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 9, size = 10
+clone_index = 0, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 9, size = 10
+clone_index = 7, clone_parent = 9, size = 10
+clone_index = 0, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 5, size = 10
+clone_index = 8, clone_parent = 25, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 26, size = 10
+clone_index = 8, clone_parent = 7, size = 10
+clone_index = 8, clone_parent = 27, size = 10
+clone_index = 8, clone_parent = 8, size = 10
+clone_index = 8, clone_parent = 28, size = 10
+clone_index = 8, clone_parent = 8, size = 10
+clone_index = 6, clone_parent = 9, size = 10
+clone_index = 8, clone_parent = 10, size = 10
+clone_index = 8, clone_parent = 30, size = 10
+clone_index = 8, clone_parent = 10, size = 10
+clone_index = 3, clone_parent = 9, size = 10
+i = 5
+removing and adding 2
+in remove variant
+clone_index = 2, clone_parent = -1, size = 10
+set parent 4, 4
+clone_index = 4, clone_parent = 4, size = 10
+set parent 5, 4
+clone_index = 5, clone_parent = 4, size = 10
+in find extension
+clone_index = 2, clone_parent = 0, size = 10
+clone_index = 2, clone_parent = 0, size = 10
+clone_index = 9, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 1, size = 10
+clone_index = 2, clone_parent = 21, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 24, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 5, size = 10
+clone_index = 2, clone_parent = 25, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 2, clone_parent = 26, size = 10
+clone_index = 2, clone_parent = 7, size = 10
+clone_index = 2, clone_parent = 27, size = 10
+clone_index = 2, clone_parent = 8, size = 10
+clone_index = 2, clone_parent = 28, size = 10
+clone_index = 2, clone_parent = 8, size = 10
+clone_index = 6, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 9, size = 10
+clone_index = 2, clone_parent = 29, size = 10
+clone_index = 2, clone_parent = 10, size = 10
+clone_index = 2, clone_parent = 30, size = 10
+clone_index = 2, clone_parent = 10, size = 10
+clone_index = 3, clone_parent = 3, size = 10
+i = 6
+removing and adding 3
+in remove variant
+clone_index = 3, clone_parent = -1, size = 10
+set parent 0, 10
+clone_index = 0, clone_parent = 10, size = 10
+set parent 2, 10
+clone_index = 2, clone_parent = 10, size = 10
+set parent 7, 10
+clone_index = 7, clone_parent = 10, size = 10
+set parent 8, 10
+clone_index = 8, clone_parent = 10, size = 10
+in find extension
+clone_index = 3, clone_parent = 0, size = 10
+clone_index = 3, clone_parent = 0, size = 10
+clone_index = 9, clone_parent = 4, size = 10
+clone_index = 3, clone_parent = 1, size = 10
+clone_index = 3, clone_parent = 21, size = 10
+clone_index = 3, clone_parent = 3, size = 10
+clone_index = 3, clone_parent = 23, size = 10
+clone_index = 3, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 4, size = 10
+clone_index = 3, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 3, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 4, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 3, clone_parent = 5, size = 10
+clone_index = 3, clone_parent = 25, size = 10
+clone_index = 3, clone_parent = 6, size = 10
+clone_index = 3, clone_parent = 26, size = 10
+clone_index = 3, clone_parent = 7, size = 10
+clone_index = 3, clone_parent = 27, size = 10
+clone_index = 3, clone_parent = 8, size = 10
+clone_index = 3, clone_parent = 28, size = 10
+clone_index = 3, clone_parent = 8, size = 10
+clone_index = 6, clone_parent = 4, size = 10
+clone_index = 3, clone_parent = 9, size = 10
+clone_index = 3, clone_parent = 29, size = 10
+clone_index = 3, clone_parent = 10, size = 10
+clone_index = 3, clone_parent = 30, size = 10
+clone_index = 3, clone_parent = 10, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 3, clone_parent = 10, size = 10
+clone_index = 7, clone_parent = 4, size = 10
+clone_index = 3, clone_parent = 10, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 3, clone_parent = 10, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 3, clone_parent = 10, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 4, size = 10
+clone_index = 3, clone_parent = 10, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 3, clone_parent = 10, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 3, clone_parent = 10, size = 10
+clone_index = 7, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 3, clone_parent = 10, size = 10
+clone_index = 7, clone_parent = 4, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 3, clone_parent = 10, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 3, clone_parent = 10, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 3, clone_parent = 10, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 4, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 3, clone_parent = 10, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 3, clone_parent = 10, size = 10
+clone_index = 7, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+clone_index = 3, clone_parent = 10, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 4, size = 10
+clone_index = 8, clone_parent = 4, size = 10
+i = 7
+Adding CNA
+i = 8
+removing and adding 2
+in remove variant
+clone_index = 2, clone_parent = -1, size = 10
+set parent 4, 4
+clone_index = 4, clone_parent = 4, size = 10
+set parent 5, 4
+clone_index = 5, clone_parent = 4, size = 10
+in find extension
+clone_index = 2, clone_parent = 0, size = 10
+clone_index = 2, clone_parent = 0, size = 10
+clone_index = 9, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 1, size = 10
+clone_index = 2, clone_parent = 21, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 24, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 4, size = 10
+clone_index = 4, clone_parent = 3, size = 10
+clone_index = 7, clone_parent = 3, size = 10
+clone_index = 0, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 8, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 5, size = 10
+clone_index = 2, clone_parent = 25, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 2, clone_parent = 26, size = 10
+clone_index = 2, clone_parent = 7, size = 10
+clone_index = 2, clone_parent = 27, size = 10
+clone_index = 2, clone_parent = 8, size = 10
+clone_index = 2, clone_parent = 28, size = 10
+clone_index = 2, clone_parent = 8, size = 10
+clone_index = 6, clone_parent = 3, size = 10
+clone_index = 2, clone_parent = 9, size = 10
+clone_index = 2, clone_parent = 29, size = 10
+clone_index = 2, clone_parent = 10, size = 10
+clone_index = 2, clone_parent = 30, size = 10
+clone_index = 2, clone_parent = 10, size = 10
+clone_index = 3, clone_parent = 3, size = 10
+i = 9
+removing and adding 5
+in remove variant
+clone_index = 5, clone_parent = -1, size = 10
+in find extension
+clone_index = 5, clone_parent = 0, size = 10
+clone_index = 5, clone_parent = 0, size = 10
+clone_index = 9, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 1, size = 10
+clone_index = 5, clone_parent = 21, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 5, clone_parent = 23, size = 10
+clone_index = 5, clone_parent = 3, size = 10
+clone_index = 4, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 5, clone_parent = 24, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 4, size = 10
+clone_index = 2, clone_parent = 6, size = 10
+clone_index = 7, clone_parent = 6, size = 10
+clone_index = 0, clone_parent = 6, size = 10
+clone_index = 8, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 5, size = 10
+clone_index = 5, clone_parent = 25, size = 10
+clone_index = 5, clone_parent = 7, size = 10
+clone_index = 5, clone_parent = 27, size = 10
+clone_index = 5, clone_parent = 8, size = 10
+clone_index = 5, clone_parent = 28, size = 10
+clone_index = 5, clone_parent = 8, size = 10
+clone_index = 6, clone_parent = 6, size = 10
+clone_index = 5, clone_parent = 9, size = 10
+clone_index = 5, clone_parent = 29, size = 10
+clone_index = 5, clone_parent = 10, size = 10
+clone_index = 5, clone_parent = 30, size = 10
+clone_index = 5, clone_parent = 10, size = 10
+clone_index = 3, clone_parent = 6, size = 10
+i = 10
+Adding CNA
+i = 11
+adding CNA clone
+in find extension
+clone_index = 10, clone_parent = 0, size = 11
+clone_index = 10, clone_parent = 0, size = 11
+clone_index = 9, clone_parent = 11, size = 11
+clone_index = 10, clone_parent = 1, size = 11
+clone_index = 10, clone_parent = 3, size = 11
+clone_index = 10, clone_parent = 3, size = 11
+clone_index = 4, clone_parent = 11, size = 11
+clone_index = 10, clone_parent = 3, size = 11
+clone_index = 5, clone_parent = 11, size = 11
+clone_index = 10, clone_parent = 3, size = 11
+clone_index = 4, clone_parent = 11, size = 11
+clone_index = 5, clone_parent = 11, size = 11
+clone_index = 10, clone_parent = 4, size = 11
+clone_index = 10, clone_parent = 4, size = 11
+clone_index = 2, clone_parent = 11, size = 11
+clone_index = 10, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 11, size = 11
+clone_index = 10, clone_parent = 4, size = 11
+clone_index = 0, clone_parent = 11, size = 11
+clone_index = 10, clone_parent = 4, size = 11
+clone_index = 8, clone_parent = 11, size = 11
+clone_index = 10, clone_parent = 4, size = 11
+clone_index = 2, clone_parent = 11, size = 11
+clone_index = 7, clone_parent = 11, size = 11
+clone_index = 10, clone_parent = 4, size = 11
+clone_index = 2, clone_parent = 11, size = 11
+clone_index = 0, clone_parent = 11, size = 11
+clone_index = 10, clone_parent = 4, size = 11
+clone_index = 2, clone_parent = 11, size = 11
+clone_index = 8, clone_parent = 11, size = 11
+clone_index = 10, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 11, size = 11
+clone_index = 0, clone_parent = 11, size = 11
+clone_index = 10, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 11, size = 11
+clone_index = 8, clone_parent = 11, size = 11
+clone_index = 10, clone_parent = 4, size = 11
+clone_index = 0, clone_parent = 11, size = 11
+clone_index = 8, clone_parent = 11, size = 11
+clone_index = 10, clone_parent = 4, size = 11
+clone_index = 2, clone_parent = 11, size = 11
+clone_index = 7, clone_parent = 11, size = 11
+clone_index = 0, clone_parent = 11, size = 11
+clone_index = 10, clone_parent = 4, size = 11
+clone_index = 2, clone_parent = 11, size = 11
+clone_index = 7, clone_parent = 11, size = 11
+clone_index = 8, clone_parent = 11, size = 11
+clone_index = 10, clone_parent = 4, size = 11
+clone_index = 2, clone_parent = 11, size = 11
+clone_index = 0, clone_parent = 11, size = 11
+clone_index = 8, clone_parent = 11, size = 11
+clone_index = 10, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 11, size = 11
+clone_index = 0, clone_parent = 11, size = 11
+clone_index = 8, clone_parent = 11, size = 11
+clone_index = 10, clone_parent = 4, size = 11
+clone_index = 2, clone_parent = 11, size = 11
+clone_index = 7, clone_parent = 11, size = 11
+clone_index = 0, clone_parent = 11, size = 11
+clone_index = 8, clone_parent = 11, size = 11
+clone_index = 10, clone_parent = 5, size = 11
+clone_index = 10, clone_parent = 6, size = 11
+clone_index = 10, clone_parent = 7, size = 11
+clone_index = 10, clone_parent = 8, size = 11
+clone_index = 10, clone_parent = 8, size = 11
+clone_index = 6, clone_parent = 11, size = 11
+clone_index = 10, clone_parent = 9, size = 11
+clone_index = 10, clone_parent = 10, size = 11
+clone_index = 10, clone_parent = 10, size = 11
+clone_index = 3, clone_parent = 11, size = 11
+i = 12
+removing and adding 2
+in remove variant
+clone_index = 2, clone_parent = -1, size = 11
+set parent 5, 4
+clone_index = 5, clone_parent = 4, size = 11
+set parent 10, 4
+clone_index = 10, clone_parent = 4, size = 11
+in find extension
+clone_index = 2, clone_parent = 0, size = 11
+clone_index = 2, clone_parent = 0, size = 11
+clone_index = 9, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 1, size = 11
+clone_index = 2, clone_parent = 21, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 2, clone_parent = 24, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 0, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 5, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 8, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 10, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 3, size = 11
+clone_index = 0, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 3, size = 11
+clone_index = 5, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 3, size = 11
+clone_index = 8, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 3, size = 11
+clone_index = 10, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 0, clone_parent = 3, size = 11
+clone_index = 5, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 0, clone_parent = 3, size = 11
+clone_index = 8, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 0, clone_parent = 3, size = 11
+clone_index = 10, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 5, clone_parent = 3, size = 11
+clone_index = 8, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 5, clone_parent = 3, size = 11
+clone_index = 10, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 8, clone_parent = 3, size = 11
+clone_index = 10, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 3, size = 11
+clone_index = 0, clone_parent = 3, size = 11
+clone_index = 5, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 3, size = 11
+clone_index = 0, clone_parent = 3, size = 11
+clone_index = 8, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 3, size = 11
+clone_index = 0, clone_parent = 3, size = 11
+clone_index = 10, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 3, size = 11
+clone_index = 5, clone_parent = 3, size = 11
+clone_index = 8, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 3, size = 11
+clone_index = 5, clone_parent = 3, size = 11
+clone_index = 10, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 3, size = 11
+clone_index = 8, clone_parent = 3, size = 11
+clone_index = 10, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 0, clone_parent = 3, size = 11
+clone_index = 5, clone_parent = 3, size = 11
+clone_index = 8, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 0, clone_parent = 3, size = 11
+clone_index = 5, clone_parent = 3, size = 11
+clone_index = 10, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 0, clone_parent = 3, size = 11
+clone_index = 8, clone_parent = 3, size = 11
+clone_index = 10, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 5, clone_parent = 3, size = 11
+clone_index = 8, clone_parent = 3, size = 11
+clone_index = 10, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 3, size = 11
+clone_index = 0, clone_parent = 3, size = 11
+clone_index = 5, clone_parent = 3, size = 11
+clone_index = 8, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 3, size = 11
+clone_index = 0, clone_parent = 3, size = 11
+clone_index = 5, clone_parent = 3, size = 11
+clone_index = 10, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 3, size = 11
+clone_index = 0, clone_parent = 3, size = 11
+clone_index = 8, clone_parent = 3, size = 11
+clone_index = 10, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 3, size = 11
+clone_index = 5, clone_parent = 3, size = 11
+clone_index = 8, clone_parent = 3, size = 11
+clone_index = 10, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 0, clone_parent = 3, size = 11
+clone_index = 5, clone_parent = 3, size = 11
+clone_index = 8, clone_parent = 3, size = 11
+clone_index = 10, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 3, size = 11
+clone_index = 0, clone_parent = 3, size = 11
+clone_index = 5, clone_parent = 3, size = 11
+clone_index = 8, clone_parent = 3, size = 11
+clone_index = 10, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 5, size = 11
+clone_index = 2, clone_parent = 25, size = 11
+clone_index = 2, clone_parent = 6, size = 11
+clone_index = 2, clone_parent = 26, size = 11
+clone_index = 2, clone_parent = 7, size = 11
+clone_index = 2, clone_parent = 27, size = 11
+clone_index = 2, clone_parent = 8, size = 11
+clone_index = 2, clone_parent = 28, size = 11
+clone_index = 2, clone_parent = 8, size = 11
+clone_index = 6, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 9, size = 11
+clone_index = 2, clone_parent = 29, size = 11
+clone_index = 2, clone_parent = 10, size = 11
+clone_index = 2, clone_parent = 30, size = 11
+clone_index = 2, clone_parent = 10, size = 11
+clone_index = 3, clone_parent = 3, size = 11
+clone_index = 2, clone_parent = 11, size = 11
+clone_index = 2, clone_parent = 11, size = 11
+clone_index = 4, clone_parent = 3, size = 11
+i = 13
+Adding CNA
+i = 14
+removing and adding 5
+in remove variant
+clone_index = 5, clone_parent = -1, size = 11
+in find extension
+clone_index = 5, clone_parent = 0, size = 11
+clone_index = 5, clone_parent = 0, size = 11
+clone_index = 9, clone_parent = 6, size = 11
+clone_index = 5, clone_parent = 1, size = 11
+clone_index = 5, clone_parent = 21, size = 11
+clone_index = 5, clone_parent = 3, size = 11
+clone_index = 5, clone_parent = 23, size = 11
+clone_index = 5, clone_parent = 3, size = 11
+clone_index = 10, clone_parent = 6, size = 11
+clone_index = 5, clone_parent = 4, size = 11
+clone_index = 5, clone_parent = 24, size = 11
+clone_index = 5, clone_parent = 4, size = 11
+clone_index = 2, clone_parent = 6, size = 11
+clone_index = 5, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 6, size = 11
+clone_index = 5, clone_parent = 4, size = 11
+clone_index = 0, clone_parent = 6, size = 11
+clone_index = 5, clone_parent = 4, size = 11
+clone_index = 8, clone_parent = 6, size = 11
+clone_index = 5, clone_parent = 4, size = 11
+clone_index = 2, clone_parent = 6, size = 11
+clone_index = 7, clone_parent = 6, size = 11
+clone_index = 5, clone_parent = 4, size = 11
+clone_index = 2, clone_parent = 6, size = 11
+clone_index = 0, clone_parent = 6, size = 11
+clone_index = 5, clone_parent = 4, size = 11
+clone_index = 2, clone_parent = 6, size = 11
+clone_index = 8, clone_parent = 6, size = 11
+clone_index = 5, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 6, size = 11
+clone_index = 0, clone_parent = 6, size = 11
+clone_index = 5, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 6, size = 11
+clone_index = 8, clone_parent = 6, size = 11
+clone_index = 5, clone_parent = 4, size = 11
+clone_index = 0, clone_parent = 6, size = 11
+clone_index = 8, clone_parent = 6, size = 11
+clone_index = 5, clone_parent = 4, size = 11
+clone_index = 2, clone_parent = 6, size = 11
+clone_index = 7, clone_parent = 6, size = 11
+clone_index = 0, clone_parent = 6, size = 11
+clone_index = 5, clone_parent = 4, size = 11
+clone_index = 2, clone_parent = 6, size = 11
+clone_index = 7, clone_parent = 6, size = 11
+clone_index = 8, clone_parent = 6, size = 11
+clone_index = 5, clone_parent = 4, size = 11
+clone_index = 2, clone_parent = 6, size = 11
+clone_index = 0, clone_parent = 6, size = 11
+clone_index = 8, clone_parent = 6, size = 11
+clone_index = 5, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 6, size = 11
+clone_index = 0, clone_parent = 6, size = 11
+clone_index = 8, clone_parent = 6, size = 11
+clone_index = 5, clone_parent = 4, size = 11
+clone_index = 2, clone_parent = 6, size = 11
+clone_index = 7, clone_parent = 6, size = 11
+clone_index = 0, clone_parent = 6, size = 11
+clone_index = 8, clone_parent = 6, size = 11
+clone_index = 5, clone_parent = 5, size = 11
+clone_index = 5, clone_parent = 25, size = 11
+clone_index = 5, clone_parent = 7, size = 11
+clone_index = 5, clone_parent = 27, size = 11
+clone_index = 5, clone_parent = 8, size = 11
+clone_index = 5, clone_parent = 28, size = 11
+clone_index = 5, clone_parent = 8, size = 11
+clone_index = 6, clone_parent = 6, size = 11
+clone_index = 5, clone_parent = 9, size = 11
+clone_index = 5, clone_parent = 29, size = 11
+clone_index = 5, clone_parent = 10, size = 11
+clone_index = 5, clone_parent = 30, size = 11
+clone_index = 5, clone_parent = 10, size = 11
+clone_index = 3, clone_parent = 6, size = 11
+clone_index = 5, clone_parent = 11, size = 11
+clone_index = 5, clone_parent = 11, size = 11
+clone_index = 4, clone_parent = 6, size = 11
+i = 15
+removing and adding 3
+in remove variant
+clone_index = 3, clone_parent = -1, size = 11
+set parent 0, 10
+clone_index = 0, clone_parent = 10, size = 11
+set parent 2, 10
+clone_index = 2, clone_parent = 10, size = 11
+set parent 7, 10
+clone_index = 7, clone_parent = 10, size = 11
+set parent 8, 10
+clone_index = 8, clone_parent = 10, size = 11
+in find extension
+clone_index = 3, clone_parent = 0, size = 11
+clone_index = 3, clone_parent = 0, size = 11
+clone_index = 9, clone_parent = 4, size = 11
+clone_index = 3, clone_parent = 1, size = 11
+clone_index = 3, clone_parent = 21, size = 11
+clone_index = 3, clone_parent = 3, size = 11
+clone_index = 3, clone_parent = 23, size = 11
+clone_index = 3, clone_parent = 3, size = 11
+clone_index = 5, clone_parent = 4, size = 11
+clone_index = 3, clone_parent = 3, size = 11
+clone_index = 10, clone_parent = 4, size = 11
+clone_index = 3, clone_parent = 3, size = 11
+clone_index = 5, clone_parent = 4, size = 11
+clone_index = 10, clone_parent = 4, size = 11
+clone_index = 3, clone_parent = 5, size = 11
+clone_index = 3, clone_parent = 25, size = 11
+clone_index = 3, clone_parent = 6, size = 11
+clone_index = 3, clone_parent = 26, size = 11
+clone_index = 3, clone_parent = 7, size = 11
+clone_index = 3, clone_parent = 27, size = 11
+clone_index = 3, clone_parent = 8, size = 11
+clone_index = 3, clone_parent = 28, size = 11
+clone_index = 3, clone_parent = 8, size = 11
+clone_index = 6, clone_parent = 4, size = 11
+clone_index = 3, clone_parent = 9, size = 11
+clone_index = 3, clone_parent = 29, size = 11
+clone_index = 3, clone_parent = 10, size = 11
+clone_index = 3, clone_parent = 30, size = 11
+clone_index = 3, clone_parent = 10, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 3, clone_parent = 10, size = 11
+clone_index = 7, clone_parent = 4, size = 11
+clone_index = 3, clone_parent = 10, size = 11
+clone_index = 0, clone_parent = 4, size = 11
+clone_index = 3, clone_parent = 10, size = 11
+clone_index = 8, clone_parent = 4, size = 11
+clone_index = 3, clone_parent = 10, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 4, size = 11
+clone_index = 3, clone_parent = 10, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 0, clone_parent = 4, size = 11
+clone_index = 3, clone_parent = 10, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 8, clone_parent = 4, size = 11
+clone_index = 3, clone_parent = 10, size = 11
+clone_index = 7, clone_parent = 4, size = 11
+clone_index = 0, clone_parent = 4, size = 11
+clone_index = 3, clone_parent = 10, size = 11
+clone_index = 7, clone_parent = 4, size = 11
+clone_index = 8, clone_parent = 4, size = 11
+clone_index = 3, clone_parent = 10, size = 11
+clone_index = 0, clone_parent = 4, size = 11
+clone_index = 8, clone_parent = 4, size = 11
+clone_index = 3, clone_parent = 10, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 4, size = 11
+clone_index = 0, clone_parent = 4, size = 11
+clone_index = 3, clone_parent = 10, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 4, size = 11
+clone_index = 8, clone_parent = 4, size = 11
+clone_index = 3, clone_parent = 10, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 0, clone_parent = 4, size = 11
+clone_index = 8, clone_parent = 4, size = 11
+clone_index = 3, clone_parent = 10, size = 11
+clone_index = 7, clone_parent = 4, size = 11
+clone_index = 0, clone_parent = 4, size = 11
+clone_index = 8, clone_parent = 4, size = 11
+clone_index = 3, clone_parent = 10, size = 11
+clone_index = 2, clone_parent = 4, size = 11
+clone_index = 7, clone_parent = 4, size = 11
+clone_index = 0, clone_parent = 4, size = 11
+clone_index = 8, clone_parent = 4, size = 11
+clone_index = 3, clone_parent = 11, size = 11
+clone_index = 3, clone_parent = 11, size = 11
+clone_index = 4, clone_parent = 4, size = 11
+i = 16
+adding CNA clone
+in find extension
+clone_index = 11, clone_parent = 0, size = 12
+clone_index = 11, clone_parent = 0, size = 12
+clone_index = 9, clone_parent = 12, size = 12
+clone_index = 11, clone_parent = 1, size = 12
+clone_index = 11, clone_parent = 3, size = 12
+clone_index = 11, clone_parent = 3, size = 12
+clone_index = 5, clone_parent = 12, size = 12
+clone_index = 11, clone_parent = 3, size = 12
+clone_index = 10, clone_parent = 12, size = 12
+clone_index = 11, clone_parent = 3, size = 12
+clone_index = 5, clone_parent = 12, size = 12
+clone_index = 10, clone_parent = 12, size = 12
+clone_index = 11, clone_parent = 5, size = 12
+clone_index = 11, clone_parent = 6, size = 12
+clone_index = 11, clone_parent = 7, size = 12
+clone_index = 11, clone_parent = 8, size = 12
+clone_index = 11, clone_parent = 8, size = 12
+clone_index = 6, clone_parent = 12, size = 12
+clone_index = 11, clone_parent = 9, size = 12
+clone_index = 11, clone_parent = 10, size = 12
+clone_index = 11, clone_parent = 10, size = 12
+clone_index = 2, clone_parent = 12, size = 12
+clone_index = 11, clone_parent = 10, size = 12
+clone_index = 7, clone_parent = 12, size = 12
+clone_index = 11, clone_parent = 10, size = 12
+clone_index = 0, clone_parent = 12, size = 12
+clone_index = 11, clone_parent = 10, size = 12
+clone_index = 8, clone_parent = 12, size = 12
+clone_index = 11, clone_parent = 10, size = 12
+clone_index = 2, clone_parent = 12, size = 12
+clone_index = 7, clone_parent = 12, size = 12
+clone_index = 11, clone_parent = 10, size = 12
+clone_index = 2, clone_parent = 12, size = 12
+clone_index = 0, clone_parent = 12, size = 12
+clone_index = 11, clone_parent = 10, size = 12
+clone_index = 2, clone_parent = 12, size = 12
+clone_index = 8, clone_parent = 12, size = 12
+clone_index = 11, clone_parent = 10, size = 12
+clone_index = 7, clone_parent = 12, size = 12
+clone_index = 0, clone_parent = 12, size = 12
+clone_index = 11, clone_parent = 10, size = 12
+clone_index = 7, clone_parent = 12, size = 12
+clone_index = 8, clone_parent = 12, size = 12
+clone_index = 11, clone_parent = 10, size = 12
+clone_index = 0, clone_parent = 12, size = 12
+clone_index = 8, clone_parent = 12, size = 12
+clone_index = 11, clone_parent = 10, size = 12
+clone_index = 2, clone_parent = 12, size = 12
+clone_index = 7, clone_parent = 12, size = 12
+clone_index = 0, clone_parent = 12, size = 12
+clone_index = 11, clone_parent = 10, size = 12
+clone_index = 2, clone_parent = 12, size = 12
+clone_index = 7, clone_parent = 12, size = 12
+clone_index = 8, clone_parent = 12, size = 12
+clone_index = 11, clone_parent = 10, size = 12
+clone_index = 2, clone_parent = 12, size = 12
+clone_index = 0, clone_parent = 12, size = 12
+clone_index = 8, clone_parent = 12, size = 12
+clone_index = 11, clone_parent = 10, size = 12
+clone_index = 7, clone_parent = 12, size = 12
+clone_index = 0, clone_parent = 12, size = 12
+clone_index = 8, clone_parent = 12, size = 12
+clone_index = 11, clone_parent = 10, size = 12
+clone_index = 2, clone_parent = 12, size = 12
+clone_index = 7, clone_parent = 12, size = 12
+clone_index = 0, clone_parent = 12, size = 12
+clone_index = 8, clone_parent = 12, size = 12
+clone_index = 11, clone_parent = 11, size = 12
+clone_index = 11, clone_parent = 11, size = 12
+clone_index = 4, clone_parent = 12, size = 12
+i = 17
+removing and adding 6
+in remove variant
+clone_index = 6, clone_parent = -1, size = 12
+in find extension
+clone_index = 6, clone_parent = 0, size = 12
+clone_index = 6, clone_parent = 0, size = 12
+clone_index = 9, clone_parent = 7, size = 12
+clone_index = 6, clone_parent = 1, size = 12
+clone_index = 6, clone_parent = 21, size = 12
+clone_index = 6, clone_parent = 3, size = 12
+clone_index = 6, clone_parent = 23, size = 12
+clone_index = 6, clone_parent = 3, size = 12
+clone_index = 5, clone_parent = 7, size = 12
+clone_index = 6, clone_parent = 3, size = 12
+clone_index = 10, clone_parent = 7, size = 12
+clone_index = 6, clone_parent = 3, size = 12
+clone_index = 5, clone_parent = 7, size = 12
+clone_index = 10, clone_parent = 7, size = 12
+clone_index = 6, clone_parent = 5, size = 12
+clone_index = 6, clone_parent = 25, size = 12
+clone_index = 6, clone_parent = 6, size = 12
+clone_index = 6, clone_parent = 26, size = 12
+clone_index = 6, clone_parent = 6, size = 12
+clone_index = 11, clone_parent = 7, size = 12
+clone_index = 6, clone_parent = 8, size = 12
+clone_index = 6, clone_parent = 28, size = 12
+clone_index = 6, clone_parent = 9, size = 12
+clone_index = 6, clone_parent = 29, size = 12
+clone_index = 6, clone_parent = 10, size = 12
+clone_index = 6, clone_parent = 30, size = 12
+clone_index = 6, clone_parent = 10, size = 12
+clone_index = 2, clone_parent = 7, size = 12
+clone_index = 6, clone_parent = 10, size = 12
+clone_index = 7, clone_parent = 7, size = 12
+clone_index = 6, clone_parent = 10, size = 12
+clone_index = 0, clone_parent = 7, size = 12
+clone_index = 6, clone_parent = 10, size = 12
+clone_index = 8, clone_parent = 7, size = 12
+clone_index = 6, clone_parent = 10, size = 12
+clone_index = 2, clone_parent = 7, size = 12
+clone_index = 7, clone_parent = 7, size = 12
+clone_index = 6, clone_parent = 10, size = 12
+clone_index = 2, clone_parent = 7, size = 12
+clone_index = 0, clone_parent = 7, size = 12
+clone_index = 6, clone_parent = 10, size = 12
+clone_index = 2, clone_parent = 7, size = 12
+clone_index = 8, clone_parent = 7, size = 12
+clone_index = 6, clone_parent = 10, size = 12
+clone_index = 7, clone_parent = 7, size = 12
+clone_index = 0, clone_parent = 7, size = 12
+clone_index = 6, clone_parent = 10, size = 12
+clone_index = 7, clone_parent = 7, size = 12
+clone_index = 8, clone_parent = 7, size = 12
+clone_index = 6, clone_parent = 10, size = 12
+clone_index = 0, clone_parent = 7, size = 12
+clone_index = 8, clone_parent = 7, size = 12
+clone_index = 6, clone_parent = 10, size = 12
+clone_index = 2, clone_parent = 7, size = 12
+clone_index = 7, clone_parent = 7, size = 12
+clone_index = 0, clone_parent = 7, size = 12
+clone_index = 6, clone_parent = 10, size = 12
+clone_index = 2, clone_parent = 7, size = 12
+clone_index = 7, clone_parent = 7, size = 12
+clone_index = 8, clone_parent = 7, size = 12
+clone_index = 6, clone_parent = 10, size = 12
+clone_index = 2, clone_parent = 7, size = 12
+clone_index = 0, clone_parent = 7, size = 12
+clone_index = 8, clone_parent = 7, size = 12
+clone_index = 6, clone_parent = 10, size = 12
+clone_index = 7, clone_parent = 7, size = 12
+clone_index = 0, clone_parent = 7, size = 12
+clone_index = 8, clone_parent = 7, size = 12
+clone_index = 6, clone_parent = 10, size = 12
+clone_index = 2, clone_parent = 7, size = 12
+clone_index = 7, clone_parent = 7, size = 12
+clone_index = 0, clone_parent = 7, size = 12
+clone_index = 8, clone_parent = 7, size = 12
+clone_index = 6, clone_parent = 11, size = 12
+clone_index = 6, clone_parent = 11, size = 12
+clone_index = 4, clone_parent = 7, size = 12
+clone_index = 6, clone_parent = 12, size = 12
+i = 18
+Adding CNA
+i = 19
+Adding CNA
+i = 20
+removing and adding 7
+in remove variant
+clone_index = 7, clone_parent = -1, size = 12
+set parent 6, 10
+clone_index = 6, clone_parent = 10, size = 12
+in find extension
+clone_index = 7, clone_parent = 0, size = 12
+clone_index = 7, clone_parent = 0, size = 12
+clone_index = 9, clone_parent = 8, size = 12
+clone_index = 7, clone_parent = 1, size = 12
+clone_index = 7, clone_parent = 21, size = 12
+clone_index = 7, clone_parent = 3, size = 12
+clone_index = 7, clone_parent = 23, size = 12
+clone_index = 7, clone_parent = 3, size = 12
+clone_index = 5, clone_parent = 8, size = 12
+clone_index = 7, clone_parent = 3, size = 12
+clone_index = 10, clone_parent = 8, size = 12
+clone_index = 7, clone_parent = 3, size = 12
+clone_index = 5, clone_parent = 8, size = 12
+clone_index = 10, clone_parent = 8, size = 12
+clone_index = 7, clone_parent = 5, size = 12
+clone_index = 7, clone_parent = 25, size = 12
+clone_index = 7, clone_parent = 6, size = 12
+clone_index = 7, clone_parent = 26, size = 12
+clone_index = 7, clone_parent = 6, size = 12
+clone_index = 11, clone_parent = 8, size = 12
+clone_index = 7, clone_parent = 7, size = 12
+clone_index = 7, clone_parent = 27, size = 12
+clone_index = 7, clone_parent = 9, size = 12
+clone_index = 7, clone_parent = 29, size = 12
+clone_index = 7, clone_parent = 10, size = 12
+clone_index = 7, clone_parent = 30, size = 12
+clone_index = 7, clone_parent = 10, size = 12
+clone_index = 2, clone_parent = 8, size = 12
+clone_index = 7, clone_parent = 10, size = 12
+clone_index = 0, clone_parent = 8, size = 12
+clone_index = 7, clone_parent = 10, size = 12
+clone_index = 6, clone_parent = 8, size = 12
+clone_index = 7, clone_parent = 10, size = 12
+clone_index = 8, clone_parent = 8, size = 12
+clone_index = 7, clone_parent = 10, size = 12
+clone_index = 2, clone_parent = 8, size = 12
+clone_index = 0, clone_parent = 8, size = 12
+clone_index = 7, clone_parent = 10, size = 12
+clone_index = 2, clone_parent = 8, size = 12
+clone_index = 6, clone_parent = 8, size = 12
+clone_index = 7, clone_parent = 10, size = 12
+clone_index = 2, clone_parent = 8, size = 12
+clone_index = 8, clone_parent = 8, size = 12
+clone_index = 7, clone_parent = 10, size = 12
+clone_index = 0, clone_parent = 8, size = 12
+clone_index = 6, clone_parent = 8, size = 12
+clone_index = 7, clone_parent = 10, size = 12
+clone_index = 0, clone_parent = 8, size = 12
+clone_index = 8, clone_parent = 8, size = 12
+clone_index = 7, clone_parent = 10, size = 12
+clone_index = 6, clone_parent = 8, size = 12
+clone_index = 8, clone_parent = 8, size = 12
+clone_index = 7, clone_parent = 10, size = 12
+clone_index = 2, clone_parent = 8, size = 12
+clone_index = 0, clone_parent = 8, size = 12
+clone_index = 6, clone_parent = 8, size = 12
+clone_index = 7, clone_parent = 10, size = 12
+clone_index = 2, clone_parent = 8, size = 12
+clone_index = 0, clone_parent = 8, size = 12
+clone_index = 8, clone_parent = 8, size = 12
+clone_index = 7, clone_parent = 10, size = 12
+clone_index = 2, clone_parent = 8, size = 12
+clone_index = 6, clone_parent = 8, size = 12
+clone_index = 8, clone_parent = 8, size = 12
+clone_index = 7, clone_parent = 10, size = 12
+clone_index = 0, clone_parent = 8, size = 12
+clone_index = 6, clone_parent = 8, size = 12
+clone_index = 8, clone_parent = 8, size = 12
+clone_index = 7, clone_parent = 10, size = 12
+clone_index = 2, clone_parent = 8, size = 12
+clone_index = 0, clone_parent = 8, size = 12
+clone_index = 6, clone_parent = 8, size = 12
+clone_index = 8, clone_parent = 8, size = 12
+clone_index = 7, clone_parent = 11, size = 12
+clone_index = 7, clone_parent = 11, size = 12
+clone_index = 4, clone_parent = 8, size = 12
+clone_index = 7, clone_parent = 12, size = 12
+i = 21
+Adding CNA
+i = 22
+Adding CNA
+i = 23
+Adding CNA
+i = 24
+Adding CNA
+
+
+Step 2 - sample 1
+
+
+Step 2 - sample 2
+in find extension
+clone_index = 1, clone_parent = 0, size = 12
+clone_index = 1, clone_parent = 1, size = 12
+clone_index = 1, clone_parent = 3, size = 12
+clone_index = 1, clone_parent = 5, size = 12
+clone_index = 1, clone_parent = 6, size = 12
+clone_index = 1, clone_parent = 7, size = 12
+clone_index = 1, clone_parent = 8, size = 12
+clone_index = 1, clone_parent = 9, size = 12
+clone_index = 1, clone_parent = 10, size = 12
+clone_index = 1, clone_parent = 11, size = 12
+clone_index = 1, clone_parent = 12, size = 12
+i = 0
+Adding CNA
+i = 1
+Adding CNA
+i = 2
+removing and adding 1
+in remove variant
+clone_index = 1, clone_parent = -1, size = 12
+in find extension
+clone_index = 1, clone_parent = 0, size = 12
+clone_index = 1, clone_parent = 1, size = 12
+clone_index = 1, clone_parent = 3, size = 12
+clone_index = 1, clone_parent = 5, size = 12
+clone_index = 1, clone_parent = 6, size = 12
+clone_index = 1, clone_parent = 7, size = 12
+clone_index = 1, clone_parent = 8, size = 12
+clone_index = 1, clone_parent = 9, size = 12
+clone_index = 1, clone_parent = 10, size = 12
+clone_index = 1, clone_parent = 11, size = 12
+clone_index = 1, clone_parent = 12, size = 12
+i = 3
+Adding CNA
+i = 4
+removing and adding 1
+in remove variant
+clone_index = 1, clone_parent = -1, size = 12
+in find extension
+clone_index = 1, clone_parent = 0, size = 12
+clone_index = 1, clone_parent = 1, size = 12
+clone_index = 1, clone_parent = 3, size = 12
+clone_index = 1, clone_parent = 5, size = 12
+clone_index = 1, clone_parent = 6, size = 12
+clone_index = 1, clone_parent = 7, size = 12
+clone_index = 1, clone_parent = 8, size = 12
+clone_index = 1, clone_parent = 9, size = 12
+clone_index = 1, clone_parent = 10, size = 12
+clone_index = 1, clone_parent = 11, size = 12
+clone_index = 1, clone_parent = 12, size = 12
+i = 5
+removing and adding 1
+in remove variant
+clone_index = 1, clone_parent = -1, size = 12
+in find extension
+clone_index = 1, clone_parent = 0, size = 12
+clone_index = 1, clone_parent = 1, size = 12
+clone_index = 1, clone_parent = 3, size = 12
+clone_index = 1, clone_parent = 5, size = 12
+clone_index = 1, clone_parent = 6, size = 12
+clone_index = 1, clone_parent = 7, size = 12
+clone_index = 1, clone_parent = 8, size = 12
+clone_index = 1, clone_parent = 9, size = 12
+clone_index = 1, clone_parent = 10, size = 12
+clone_index = 1, clone_parent = 11, size = 12
+clone_index = 1, clone_parent = 12, size = 12
+i = 6
+removing and adding 1
+in remove variant
+clone_index = 1, clone_parent = -1, size = 12
+in find extension
+clone_index = 1, clone_parent = 0, size = 12
+clone_index = 1, clone_parent = 1, size = 12
+clone_index = 1, clone_parent = 3, size = 12
+clone_index = 1, clone_parent = 5, size = 12
+clone_index = 1, clone_parent = 6, size = 12
+clone_index = 1, clone_parent = 7, size = 12
+clone_index = 1, clone_parent = 8, size = 12
+clone_index = 1, clone_parent = 9, size = 12
+clone_index = 1, clone_parent = 10, size = 12
+clone_index = 1, clone_parent = 11, size = 12
+clone_index = 1, clone_parent = 12, size = 12
+i = 7
+Adding CNA
+i = 8
+Adding CNA
+i = 9
+Adding CNA
+i = 10
+removing and adding 1
+in remove variant
+clone_index = 1, clone_parent = -1, size = 12
+in find extension
+clone_index = 1, clone_parent = 0, size = 12
+clone_index = 1, clone_parent = 1, size = 12
+clone_index = 1, clone_parent = 3, size = 12
+clone_index = 1, clone_parent = 5, size = 12
+clone_index = 1, clone_parent = 6, size = 12
+clone_index = 1, clone_parent = 7, size = 12
+clone_index = 1, clone_parent = 8, size = 12
+clone_index = 1, clone_parent = 9, size = 12
+clone_index = 1, clone_parent = 10, size = 12
+clone_index = 1, clone_parent = 11, size = 12
+clone_index = 1, clone_parent = 12, size = 12
+i = 11
+adding CNA clone
+in find extension
+clone_index = 12, clone_parent = 0, size = 13
+clone_index = 12, clone_parent = 1, size = 13
+clone_index = 12, clone_parent = 2, size = 13
+clone_index = 12, clone_parent = 3, size = 13
+clone_index = 12, clone_parent = 5, size = 13
+clone_index = 12, clone_parent = 6, size = 13
+clone_index = 12, clone_parent = 7, size = 13
+clone_index = 12, clone_parent = 7, size = 13
+clone_index = 1, clone_parent = 13, size = 13
+clone_index = 12, clone_parent = 8, size = 13
+clone_index = 12, clone_parent = 9, size = 13
+clone_index = 12, clone_parent = 10, size = 13
+clone_index = 12, clone_parent = 11, size = 13
+clone_index = 12, clone_parent = 12, size = 13
+i = 12
+removing and adding 1
+in remove variant
+clone_index = 1, clone_parent = -1, size = 12
+in find extension
+clone_index = 1, clone_parent = 0, size = 12
+clone_index = 1, clone_parent = 1, size = 12
+clone_index = 1, clone_parent = 3, size = 12
+clone_index = 1, clone_parent = 5, size = 12
+clone_index = 1, clone_parent = 6, size = 12
+clone_index = 1, clone_parent = 7, size = 12
+clone_index = 1, clone_parent = 8, size = 12
+clone_index = 1, clone_parent = 9, size = 12
+clone_index = 1, clone_parent = 10, size = 12
+clone_index = 1, clone_parent = 11, size = 12
+clone_index = 1, clone_parent = 12, size = 12
+i = 13
+removing and adding 1
+in remove variant
+clone_index = 1, clone_parent = -1, size = 12
+in find extension
+clone_index = 1, clone_parent = 0, size = 12
+clone_index = 1, clone_parent = 1, size = 12
+clone_index = 1, clone_parent = 3, size = 12
+clone_index = 1, clone_parent = 5, size = 12
+clone_index = 1, clone_parent = 6, size = 12
+clone_index = 1, clone_parent = 7, size = 12
+clone_index = 1, clone_parent = 8, size = 12
+clone_index = 1, clone_parent = 9, size = 12
+clone_index = 1, clone_parent = 10, size = 12
+clone_index = 1, clone_parent = 11, size = 12
+clone_index = 1, clone_parent = 12, size = 12
+i = 14
+adding CNA clone
+in find extension
+clone_index = 12, clone_parent = 0, size = 13
+clone_index = 12, clone_parent = 1, size = 13
+clone_index = 12, clone_parent = 2, size = 13
+clone_index = 12, clone_parent = 3, size = 13
+clone_index = 12, clone_parent = 5, size = 13
+clone_index = 12, clone_parent = 6, size = 13
+clone_index = 12, clone_parent = 7, size = 13
+clone_index = 12, clone_parent = 7, size = 13
+clone_index = 1, clone_parent = 13, size = 13
+clone_index = 12, clone_parent = 8, size = 13
+clone_index = 12, clone_parent = 9, size = 13
+clone_index = 12, clone_parent = 10, size = 13
+clone_index = 12, clone_parent = 11, size = 13
+clone_index = 12, clone_parent = 12, size = 13
+i = 15
+Adding CNA
+i = 16
+removing and adding 1
+in remove variant
+clone_index = 1, clone_parent = -1, size = 12
+in find extension
+clone_index = 1, clone_parent = 0, size = 12
+clone_index = 1, clone_parent = 1, size = 12
+clone_index = 1, clone_parent = 3, size = 12
+clone_index = 1, clone_parent = 5, size = 12
+clone_index = 1, clone_parent = 6, size = 12
+clone_index = 1, clone_parent = 7, size = 12
+clone_index = 1, clone_parent = 8, size = 12
+clone_index = 1, clone_parent = 9, size = 12
+clone_index = 1, clone_parent = 10, size = 12
+clone_index = 1, clone_parent = 11, size = 12
+clone_index = 1, clone_parent = 12, size = 12
+i = 17
+removing and adding 1
+in remove variant
+clone_index = 1, clone_parent = -1, size = 12
+in find extension
+clone_index = 1, clone_parent = 0, size = 12
+clone_index = 1, clone_parent = 1, size = 12
+clone_index = 1, clone_parent = 3, size = 12
+clone_index = 1, clone_parent = 5, size = 12
+clone_index = 1, clone_parent = 6, size = 12
+clone_index = 1, clone_parent = 7, size = 12
+clone_index = 1, clone_parent = 8, size = 12
+clone_index = 1, clone_parent = 9, size = 12
+clone_index = 1, clone_parent = 10, size = 12
+clone_index = 1, clone_parent = 11, size = 12
+clone_index = 1, clone_parent = 12, size = 12
+i = 18
+Adding CNA
+i = 19
+Adding CNA
+
+
+Time elapsed: 953046 ms

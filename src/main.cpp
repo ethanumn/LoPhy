@@ -100,7 +100,10 @@ int main(int argc, char* argv[])
                          params.delta,
                          params.CNA_penalty,
                          params.tau1,
-                         params.tau2);
+                         params.tau2,
+                         params.psi,
+                         params.max_cn,
+                         params.sample_agnostic);
     if(variant_reads.size() > 0 && total_reads.size() > 0)
         manager.fill(character_matrix,
                      variant_reads, 
@@ -118,11 +121,18 @@ int main(int argc, char* argv[])
     // initialize cache for scoring
     SCORE_CACHE cache;
 
-    /* 
-    Step 1
+    /*
+    Step 1:
     -------
-    Estimate sample-specific weights for the fraction of reads that fall into each region
-    This is done by running the algorithm on each sample separately without considering CNAs
+    Estimate baseline region-specific read probabilities (ρ_k) using SNV-only trees.
+
+    For each sample, we:
+    1. infer a provisional SNV-only tree,
+    2. define root-assigned cells as the normal population,
+    3. accumulate read counts across these normal cells.
+
+    Region probabilities are either computed per-sample or aggregated across samples
+    depending on sample_agnostic mode.
     */
     Tree tree;
     const auto & samples = manager.get_samples();
@@ -141,10 +151,27 @@ int main(int argc, char* argv[])
                       true,
                       params.seed);
 
-        manager.compute_region_weights(sample, tree.get_cell_assignments(), tree.get_parents());
+        // collect regions sums for all "normal" cells in the sample
+        manager.collect_region_sums(sample, tree.get_cell_assignments(), tree.get_parents(), !manager.get_sample_agnostic());
+
+        // if we're not in sample agnostic mode, compute region weights after collecting region sums for this sample
+        if(!manager.get_sample_agnostic())
+        {
+            manager.compute_reliable_regions(sample);
+            manager.compute_region_weights(sample);
+        }
         cout << endl << endl;
 
     }
+
+    // if we're running in sample agnostic mode, compute region weights after collecting all region sums for each sample
+    if(manager.get_sample_agnostic())
+    {
+        for(const auto & sample : samples)
+            manager.compute_region_weights(sample);
+        manager.compute_reliable_regions(-1); // compute reliable regions across all samples
+    }
+
     cout << endl << endl; 
     /*
     Step 2
@@ -216,8 +243,10 @@ void print_args(void) {
     cout << "-delta             |     No       |  Maximum number of hill climbing iterations to perform without likelihood improvement (Default = 20)    " << endl;
     cout << "-tau1              |     No       |  Probability of performing an SNV relocation (Default = 0.5)                                            " << endl;   
     cout << "-tau2              |     No       |  Probability of adding a CNA clone (Default = 0.1)                                                      " << endl;   
+    cout << "-psi               |     No       |  Likelihood penalty multiplier for adding/removing CNAs (Default = 1.05)                                " << endl;   
     cout << "-penalty           |     No       |  Penalty for adding a CNA (Default = 85.0)                                                              " << endl;   
     cout << "-seed              |     No       |  Random seed (Default = random)                                                                         " << endl;
+    cout << "-sample-agnostic   |     No       |  Flag indiciating whether to not consider sample-specific coverage (Default = false)                    " << endl;
     cout << "--------------------------------------------------------------------------------------------------------------------------------------------" << endl;
     exit(0);
 }
@@ -257,11 +286,19 @@ void check_params(Params & params) {
         passed_check = false;
     } 
     if(params.tau1 < 0.0 || params.tau1 > 1.0) {
-        cout << "Error with argument -tau1 " << params.fp << ". Must be a float in the range (0,1)." << endl;
+        cout << "Error with argument -tau1 " << params.tau1 << ". Must be a float in the range (0,1)." << endl;
         passed_check = false;
     } 
     if(params.tau2 < 0.0 || params.tau2 > 1.0) {
-        cout << "Error with argument -tau2 " << params.fp << ". Must be a float in the range (0,1)." << endl;
+        cout << "Error with argument -tau2 " << params.tau2 << ". Must be a float in the range (0,1)." << endl;
+        passed_check = false;
+    } 
+    if(params.psi < 0.0) {
+        cout << "Error with argument -psi " << params.psi << ". Must be non-negative." << endl;
+        passed_check = false;
+    } 
+    if((params.max_cn < 2) ||  (params.max_cn > 5)) {
+            cout << "Error with argument -max-cn " << params.max_cn << ". Must be 2, 3, 4, or 5." << endl;
         passed_check = false;
     } 
     if(params.iters < 0) {
@@ -465,10 +502,16 @@ void read_parameters(int argc, char* argv[], Params & params){
 			if (i + 1 < argc) {params.tau1 = atof(argv[++i]);}
 		} else if(strcmp(argv[i], "-tau2")==0) {
 			if (i + 1 < argc) {params.tau2 = atof(argv[++i]);}
+		} else if(strcmp(argv[i], "-psi")==0) {
+			if (i + 1 < argc) {params.psi = atof(argv[++i]);}
+		} else if(strcmp(argv[i], "-max-cn")==0) {
+			if (i + 1 < argc) {params.max_cn = atoi(argv[++i]);}
 		} else if(strcmp(argv[i], "-penalty")==0) {
 			if (i + 1 < argc) {params.CNA_penalty = atof(argv[++i]);}
 		}  else if(strcmp(argv[i],"-seed")==0) {
 			if (i + 1 < argc) {params.seed = atoi(argv[++i]) % numeric_limits<int>::max();}
+		} else if(strcmp(argv[i],"-sample-agnostic")==0) {
+			if (i + 1 < argc) {params.sample_agnostic = true;}
 		} 
 	}
 }

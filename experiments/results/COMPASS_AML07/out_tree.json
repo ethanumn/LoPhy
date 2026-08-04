@@ -1,0 +1,22 @@
+{
+"nodes":[
+	{
+		"name": "Node 0",
+		"parent": "-",
+		"SNV": ["PTPN11_intronic","U2AF1_intronic","NPM1_intronic","SRSF2_pP95H","IDH2_pR140Q"],
+		"CNA": []
+	},
+	{
+		"name": "Node 1",
+		"parent": "Node 0",
+		"SNV": ["RUNX1_pD123fs"],
+		"CNA": []
+	},
+	{
+		"name": "Node 2",
+		"parent": "Node 1",
+		"SNV": [],
+		"CNA": ["CNLOH RUNX1","CNLOH U2AF1"]
+	}
+]
+}

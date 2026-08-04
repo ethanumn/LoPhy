@@ -1,0 +1,284 @@
+Step 1 - sample 0
+in find extension
+clone_index = 1, clone_parent = 0, size = 4
+in find extension
+clone_index = 0, clone_parent = 0, size = 4
+clone_index = 0, clone_parent = 0, size = 4
+clone_index = 1, clone_parent = 1, size = 4
+clone_index = 0, clone_parent = 2, size = 4
+clone_index = 0, clone_parent = 10, size = 4
+num cells attached to root = 3968
+
+
+Step 1 - sample 1
+in find extension
+clone_index = 1, clone_parent = 0, size = 4
+in find extension
+clone_index = 0, clone_parent = 0, size = 4
+clone_index = 0, clone_parent = 2, size = 4
+num cells attached to root = 3931
+
+
+
+
+Step 2 - sample 0
+in find extension
+clone_index = 1, clone_parent = 0, size = 4
+in find extension
+clone_index = 0, clone_parent = 0, size = 4
+clone_index = 0, clone_parent = 0, size = 4
+clone_index = 1, clone_parent = 1, size = 4
+clone_index = 0, clone_parent = 2, size = 4
+clone_index = 0, clone_parent = 10, size = 4
+i = 0
+removing and adding 0
+in remove variant
+clone_index = 0, clone_parent = -1, size = 4
+in find extension
+clone_index = 0, clone_parent = 0, size = 4
+clone_index = 0, clone_parent = 0, size = 4
+clone_index = 1, clone_parent = 1, size = 4
+clone_index = 0, clone_parent = 2, size = 4
+clone_index = 0, clone_parent = 10, size = 4
+i = 1
+adding CNA clone
+in find extension
+clone_index = 4, clone_parent = 0, size = 5
+clone_index = 4, clone_parent = 0, size = 5
+clone_index = 1, clone_parent = 5, size = 5
+clone_index = 4, clone_parent = 0, size = 5
+clone_index = 0, clone_parent = 5, size = 5
+clone_index = 4, clone_parent = 0, size = 5
+clone_index = 1, clone_parent = 5, size = 5
+clone_index = 0, clone_parent = 5, size = 5
+clone_index = 4, clone_parent = 1, size = 5
+clone_index = 4, clone_parent = 2, size = 5
+i = 2
+removing and adding 0
+in remove variant
+clone_index = 0, clone_parent = -1, size = 5
+in find extension
+clone_index = 0, clone_parent = 0, size = 5
+clone_index = 0, clone_parent = 0, size = 5
+clone_index = 1, clone_parent = 1, size = 5
+clone_index = 0, clone_parent = 2, size = 5
+clone_index = 0, clone_parent = 10, size = 5
+clone_index = 0, clone_parent = 2, size = 5
+clone_index = 4, clone_parent = 1, size = 5
+clone_index = 0, clone_parent = 5, size = 5
+i = 3
+removing and adding 1
+in remove variant
+clone_index = 1, clone_parent = -1, size = 5
+set parent 4, 0
+clone_index = 4, clone_parent = 0, size = 5
+in find extension
+clone_index = 1, clone_parent = 0, size = 5
+clone_index = 1, clone_parent = 0, size = 5
+clone_index = 0, clone_parent = 2, size = 5
+clone_index = 1, clone_parent = 0, size = 5
+clone_index = 4, clone_parent = 2, size = 5
+clone_index = 1, clone_parent = 0, size = 5
+clone_index = 0, clone_parent = 2, size = 5
+clone_index = 4, clone_parent = 2, size = 5
+clone_index = 1, clone_parent = 1, size = 5
+clone_index = 1, clone_parent = 9, size = 5
+clone_index = 1, clone_parent = 5, size = 5
+i = 4
+removing and adding 0
+in remove variant
+clone_index = 0, clone_parent = -1, size = 5
+in find extension
+clone_index = 0, clone_parent = 0, size = 5
+clone_index = 0, clone_parent = 0, size = 5
+clone_index = 1, clone_parent = 1, size = 5
+clone_index = 0, clone_parent = 2, size = 5
+clone_index = 0, clone_parent = 10, size = 5
+clone_index = 0, clone_parent = 2, size = 5
+clone_index = 4, clone_parent = 1, size = 5
+clone_index = 0, clone_parent = 5, size = 5
+i = 5
+removing and adding 0
+in remove variant
+clone_index = 0, clone_parent = -1, size = 5
+in find extension
+clone_index = 0, clone_parent = 0, size = 5
+clone_index = 0, clone_parent = 0, size = 5
+clone_index = 1, clone_parent = 1, size = 5
+clone_index = 0, clone_parent = 2, size = 5
+clone_index = 0, clone_parent = 10, size = 5
+clone_index = 0, clone_parent = 2, size = 5
+clone_index = 4, clone_parent = 1, size = 5
+clone_index = 0, clone_parent = 5, size = 5
+i = 6
+removing and adding 1
+in remove variant
+clone_index = 1, clone_parent = -1, size = 5
+set parent 4, 0
+clone_index = 4, clone_parent = 0, size = 5
+in find extension
+clone_index = 1, clone_parent = 0, size = 5
+clone_index = 1, clone_parent = 0, size = 5
+clone_index = 0, clone_parent = 2, size = 5
+clone_index = 1, clone_parent = 0, size = 5
+clone_index = 4, clone_parent = 2, size = 5
+clone_index = 1, clone_parent = 0, size = 5
+clone_index = 0, clone_parent = 2, size = 5
+clone_index = 4, clone_parent = 2, size = 5
+clone_index = 1, clone_parent = 1, size = 5
+clone_index = 1, clone_parent = 9, size = 5
+clone_index = 1, clone_parent = 5, size = 5
+i = 7
+Adding CNA
+i = 8
+Adding CNA
+i = 9
+adding CNA clone
+in find extension
+clone_index = 5, clone_parent = 0, size = 6
+clone_index = 5, clone_parent = 0, size = 6
+clone_index = 1, clone_parent = 6, size = 6
+clone_index = 5, clone_parent = 0, size = 6
+clone_index = 0, clone_parent = 6, size = 6
+clone_index = 5, clone_parent = 0, size = 6
+clone_index = 1, clone_parent = 6, size = 6
+clone_index = 0, clone_parent = 6, size = 6
+clone_index = 5, clone_parent = 1, size = 6
+clone_index = 5, clone_parent = 2, size = 6
+clone_index = 5, clone_parent = 2, size = 6
+clone_index = 4, clone_parent = 6, size = 6
+clone_index = 5, clone_parent = 5, size = 6
+i = 10
+removing and adding 0
+in remove variant
+clone_index = 0, clone_parent = -1, size = 5
+in find extension
+clone_index = 0, clone_parent = 0, size = 5
+clone_index = 0, clone_parent = 0, size = 5
+clone_index = 1, clone_parent = 1, size = 5
+clone_index = 0, clone_parent = 2, size = 5
+clone_index = 0, clone_parent = 10, size = 5
+clone_index = 0, clone_parent = 2, size = 5
+clone_index = 4, clone_parent = 1, size = 5
+clone_index = 0, clone_parent = 5, size = 5
+i = 11
+Adding CNA
+i = 12
+Adding CNA
+i = 13
+removing and adding 1
+in remove variant
+clone_index = 1, clone_parent = -1, size = 5
+set parent 4, 0
+clone_index = 4, clone_parent = 0, size = 5
+in find extension
+clone_index = 1, clone_parent = 0, size = 5
+clone_index = 1, clone_parent = 0, size = 5
+clone_index = 0, clone_parent = 2, size = 5
+clone_index = 1, clone_parent = 0, size = 5
+clone_index = 4, clone_parent = 2, size = 5
+clone_index = 1, clone_parent = 0, size = 5
+clone_index = 0, clone_parent = 2, size = 5
+clone_index = 4, clone_parent = 2, size = 5
+clone_index = 1, clone_parent = 1, size = 5
+clone_index = 1, clone_parent = 9, size = 5
+clone_index = 1, clone_parent = 5, size = 5
+i = 14
+removing and adding 0
+in remove variant
+clone_index = 0, clone_parent = -1, size = 5
+in find extension
+clone_index = 0, clone_parent = 0, size = 5
+clone_index = 0, clone_parent = 0, size = 5
+clone_index = 1, clone_parent = 1, size = 5
+clone_index = 0, clone_parent = 2, size = 5
+clone_index = 0, clone_parent = 10, size = 5
+clone_index = 0, clone_parent = 2, size = 5
+clone_index = 4, clone_parent = 1, size = 5
+clone_index = 0, clone_parent = 5, size = 5
+i = 15
+adding CNA clone
+in find extension
+clone_index = 5, clone_parent = 0, size = 6
+clone_index = 5, clone_parent = 0, size = 6
+clone_index = 1, clone_parent = 6, size = 6
+clone_index = 5, clone_parent = 0, size = 6
+clone_index = 0, clone_parent = 6, size = 6
+clone_index = 5, clone_parent = 0, size = 6
+clone_index = 1, clone_parent = 6, size = 6
+clone_index = 0, clone_parent = 6, size = 6
+clone_index = 5, clone_parent = 1, size = 6
+clone_index = 5, clone_parent = 2, size = 6
+clone_index = 5, clone_parent = 2, size = 6
+clone_index = 4, clone_parent = 6, size = 6
+clone_index = 5, clone_parent = 5, size = 6
+i = 16
+Adding CNA
+i = 17
+removing and adding 0
+in remove variant
+clone_index = 0, clone_parent = -1, size = 5
+in find extension
+clone_index = 0, clone_parent = 0, size = 5
+clone_index = 0, clone_parent = 0, size = 5
+clone_index = 1, clone_parent = 1, size = 5
+clone_index = 0, clone_parent = 2, size = 5
+clone_index = 0, clone_parent = 10, size = 5
+clone_index = 0, clone_parent = 2, size = 5
+clone_index = 4, clone_parent = 1, size = 5
+clone_index = 0, clone_parent = 5, size = 5
+i = 18
+removing and adding 1
+in remove variant
+clone_index = 1, clone_parent = -1, size = 5
+set parent 4, 0
+clone_index = 4, clone_parent = 0, size = 5
+in find extension
+clone_index = 1, clone_parent = 0, size = 5
+clone_index = 1, clone_parent = 0, size = 5
+clone_index = 0, clone_parent = 2, size = 5
+clone_index = 1, clone_parent = 0, size = 5
+clone_index = 4, clone_parent = 2, size = 5
+clone_index = 1, clone_parent = 0, size = 5
+clone_index = 0, clone_parent = 2, size = 5
+clone_index = 4, clone_parent = 2, size = 5
+clone_index = 1, clone_parent = 1, size = 5
+clone_index = 1, clone_parent = 9, size = 5
+clone_index = 1, clone_parent = 5, size = 5
+i = 19
+removing and adding 0
+in remove variant
+clone_index = 0, clone_parent = -1, size = 5
+in find extension
+clone_index = 0, clone_parent = 0, size = 5
+clone_index = 0, clone_parent = 0, size = 5
+clone_index = 1, clone_parent = 1, size = 5
+clone_index = 0, clone_parent = 2, size = 5
+clone_index = 0, clone_parent = 10, size = 5
+clone_index = 0, clone_parent = 2, size = 5
+clone_index = 4, clone_parent = 1, size = 5
+clone_index = 0, clone_parent = 5, size = 5
+i = 20
+removing and adding 1
+in remove variant
+clone_index = 1, clone_parent = -1, size = 5
+set parent 4, 0
+clone_index = 4, clone_parent = 0, size = 5
+in find extension
+clone_index = 1, clone_parent = 0, size = 5
+clone_index = 1, clone_parent = 0, size = 5
+clone_index = 0, clone_parent = 2, size = 5
+clone_index = 1, clone_parent = 0, size = 5
+clone_index = 4, clone_parent = 2, size = 5
+clone_index = 1, clone_parent = 0, size = 5
+clone_index = 0, clone_parent = 2, size = 5
+clone_index = 4, clone_parent = 2, size = 5
+clone_index = 1, clone_parent = 1, size = 5
+clone_index = 1, clone_parent = 9, size = 5
+clone_index = 1, clone_parent = 5, size = 5
+
+
+Step 2 - sample 1
+
+
+Time elapsed: 150477 ms

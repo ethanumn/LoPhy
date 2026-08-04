@@ -1,0 +1,46 @@
+{
+"nodes":[
+	{
+		"name": "Node 0",
+		"parent": "-",
+		"SNV": [],
+		"CNA": []
+	},
+	{
+		"name": "Node 1",
+		"parent": "Node 6",
+		"SNV": ["PTPN11_pG60V"],
+		"CNA": []
+	},
+	{
+		"name": "Node 2",
+		"parent": "Node 6",
+		"SNV": ["NRAS_pG12S"],
+		"CNA": []
+	},
+	{
+		"name": "Node 3",
+		"parent": "Node 0",
+		"SNV": ["TP53_pP151H"],
+		"CNA": []
+	},
+	{
+		"name": "Node 4",
+		"parent": "Node 6",
+		"SNV": ["NRAS_pG13R"],
+		"CNA": []
+	},
+	{
+		"name": "Node 5",
+		"parent": "Node 6",
+		"SNV": ["KRAS_pG12A"],
+		"CNA": []
+	},
+	{
+		"name": "Node 6",
+		"parent": "Node 3",
+		"SNV": [],
+		"CNA": ["Loss EZH2"]
+	}
+]
+}

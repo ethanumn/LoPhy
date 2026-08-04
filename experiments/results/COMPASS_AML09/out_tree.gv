@@ -1,0 +1,26 @@
+digraph G{
+node [color=dimgray fontsize=24 fontcolor=black fontname=Helvetica penwidth=5];
+0 -> 1 [color=dimgray penwidth=4 weight=2];
+0 -> 2 [color=dimgray penwidth=4 weight=2];
+0 -> 3 [color=dimgray penwidth=4 weight=2];
+0 -> 4 [color=dimgray penwidth=4 weight=2];
+3 -> 5 [color=dimgray penwidth=4 weight=2];
+0[label=< >];
+1[label=<FLT3_pD835E(chr13)<br/>>];
+2[label=<FLT3-ITD_1(chr13)<br/>>];
+3[label=<FLT3-ITD_2(chr13)<br/>>];
+4[label=<KRAS_pG13D(chr12)<br/>>];
+5[label=<WT1_pP372fs(chr11)<br/>>];
+0 -> 6 [dir=none style=dashed weight=1 penwidth=5 color=lightcoral];
+1 -> 7 [dir=none style=dashed weight=1 penwidth=5 color=skyblue3];
+2 -> 8 [dir=none style=dashed weight=1 penwidth=5 color=sandybrown];
+3 -> 9 [dir=none style=dashed weight=1 penwidth=5 color=paleturquoise3];
+4 -> 10 [dir=none style=dashed weight=1 penwidth=5 color=thistle];
+5 -> 11 [dir=none style=dashed weight=1 penwidth=5 color=darkolivegreen3];
+6[label="0 cells\n0\%" style = filled width=0 height=0 color=lightcoral];
+7[label="563 cells\n4\%" style = filled width=0.691136 height=0.691136 color=skyblue3];
+8[label="1346 cells\n10\%" style = filled width=1.06864 height=1.06864 color=sandybrown];
+9[label="10777 cells\n82\%" style = filled width=3.02384 height=3.02384 color=paleturquoise3];
+10[label="301 cells\n2\%" style = filled width=0.50535 height=0.50535 color=thistle];
+11[label="109 cells\n1\%" style = filled width=0.304104 height=0.304104 color=darkolivegreen3];
+}

@@ -1,0 +1,14 @@
+digraph G{
+node [color=dimgray fontsize=24 fontcolor=black fontname=Helvetica penwidth=5];
+0 -> 1 [color=dimgray penwidth=4 weight=2];
+1 -> 2 [color=dimgray penwidth=4 weight=2];
+0[label=<U2AF1_intronic(chr21)<br/>>];
+1[label=<RUNX1_pD123fs(chr21)<br/>>];
+2[label=<<B>CNLOH RUNX1:REF (chr21)</B><br/><B>CNLOH U2AF1:REF (chr21)</B><br/>>];
+0 -> 3 [dir=none style=dashed weight=1 penwidth=5 color=lightcoral];
+1 -> 4 [dir=none style=dashed weight=1 penwidth=5 color=skyblue3];
+2 -> 5 [dir=none style=dashed weight=1 penwidth=5 color=sandybrown];
+3[label="1343 cells\n9\%" style = filled width=0.994458 height=0.994458 color=lightcoral];
+4[label="71 cells\n0\%" style = filled width=0.228653 height=0.228653 color=skyblue3];
+5[label="13675 cells\n91\%" style = filled width=3.17331 height=3.17331 color=sandybrown];
+}

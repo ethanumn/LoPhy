@@ -1,0 +1,28 @@
+{
+"nodes":[
+	{
+		"name": "Node 0",
+		"parent": "-",
+		"SNV": ["chr16_8569820_intergenic","NRAS_pG12D"],
+		"CNA": []
+	},
+	{
+		"name": "Node 1",
+		"parent": "Node 3",
+		"SNV": [],
+		"CNA": ["CNLOH FLT3"]
+	},
+	{
+		"name": "Node 2",
+		"parent": "Node 0",
+		"SNV": ["NPM1_pW288fs"],
+		"CNA": []
+	},
+	{
+		"name": "Node 3",
+		"parent": "Node 2",
+		"SNV": ["FLT3-ITD_1","WT1_pA382fs","FLT3-ITD_2"],
+		"CNA": []
+	}
+]
+}

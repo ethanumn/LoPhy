@@ -1,0 +1,18 @@
+digraph G{
+node [color=dimgray fontsize=24 fontcolor=black fontname=Helvetica penwidth=5];
+3 -> 1 [color=dimgray penwidth=4 weight=2];
+0 -> 2 [color=dimgray penwidth=4 weight=2];
+2 -> 3 [color=dimgray penwidth=4 weight=2];
+0[label=< >];
+1[label=<<B>CNLOH FLT3:REF,ALT (chr13)</B><br/>>];
+2[label=<NPM1_pW288fs(chr5)<br/>>];
+3[label=<WT1_pA382fs(chr11)<br/>FLT3-ITD_1(chr13)<br/>FLT3-ITD_2(chr13)<br/>>];
+0 -> 4 [dir=none style=dashed weight=1 penwidth=5 color=lightcoral];
+1 -> 5 [dir=none style=dashed weight=1 penwidth=5 color=skyblue3];
+2 -> 6 [dir=none style=dashed weight=1 penwidth=5 color=sandybrown];
+3 -> 7 [dir=none style=dashed weight=1 penwidth=5 color=paleturquoise3];
+4[label="1229 cells\n11\%" style = filled width=1.11698 height=1.11698 color=lightcoral];
+5[label="9560 cells\n87\%" style = filled width=3.1153 height=3.1153 color=skyblue3];
+6[label="71 cells\n1\%" style = filled width=0.268473 height=0.268473 color=sandybrown];
+7[label="85 cells\n1\%" style = filled width=0.293752 height=0.293752 color=paleturquoise3];
+}

@@ -1,0 +1,5 @@
+node	NRAS_pG12A	NRAS_pG12S	DNMT3A_pL889P	DNMT3A_p763fs	FLT3_pV491L	IDH2_pR172K	NF1_intronic
+Node 0	0	0	1	1	0	1	1
+Node 1	1	0	1	1	0	1	1
+Node 2	0	0	1	1	1	1	1
+Node 3	0	1	1	1	0	1	1

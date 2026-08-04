@@ -1,0 +1,9 @@
+node	NRAS_pG12D	NRAS_pG12S	KRAS_pG12D	PTPN11_pG503E	IDH2_pR140W	SRSF2_pP95L	ASXL1_pG646fs
+Node 0	0	0	0	0	0	0	0
+Node 1	0	0	0	0	0	1	1
+Node 2	0	1	0	1	0	1	1
+Node 3	0	0	0	1	0	1	1
+Node 4	1	0	0	1	0	1	1
+Node 5	0	0	0	0	0	0	1
+Node 6	0	0	1	1	0	1	1
+Node 7	0	0	0	0	1	1	1

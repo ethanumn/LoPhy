@@ -670,13 +670,6 @@ void  Tree::_score(const vector<vector<int>> & A,
 
     // penalty for number of non-CNA defined clones
     llh -= (this->clones.size() - this->dummy_clone_count) * (4 + this->loci.size());
-
-    // // penalty for CNA clones
-    // llh -= 50 * coeff * this->dummy_clone_count * (8 + this->loci.size());
-
-    // heavily penalize trees with nodes that do not have any cells attached
-    // if(!this->has_min_cells_attached(manager, sample, 1))
-    //     llh -= 1e8;
     
     // heavily penalize if the same CNAs occur in multiple children of a clone
     if(this->has_CNA_overfitting())
@@ -756,8 +749,26 @@ void Tree::CNAs_to_matrices(const data_manager & manager,
                             if(locus_regions[locus] == region)
                                 B[clone][locus] = 2;
                         break;
+                    case GAIN_ALT_2:
+                        A[clone][region] = 4;
+                        for(const auto & locus :variants_in_clone)
+                            if(locus_regions[locus] == region)
+                                B[clone][locus] = 3;
+                        break;
+                    case GAIN_ALT_3:
+                        A[clone][region] = 5;
+                        for(const auto & locus :variants_in_clone)
+                            if(locus_regions[locus] == region)
+                                B[clone][locus] = 4;
+                        break;
                     case GAIN_REF:
                         A[clone][region] = 3;
+                        break;
+                    case GAIN_REF_2:
+                        A[clone][region] = 4;
+                        break;
+                    case GAIN_REF_3:
+                        A[clone][region] = 5;
                         break;
                     case CNLOH_ALT:
                         A[clone][region] = 2;

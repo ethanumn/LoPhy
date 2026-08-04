@@ -1,0 +1,22 @@
+digraph G{
+node [color=dimgray fontsize=24 fontcolor=black fontname=Helvetica penwidth=5];
+4 -> 1 [color=dimgray penwidth=4 weight=2];
+3 -> 2 [color=dimgray penwidth=4 weight=2];
+0 -> 3 [color=dimgray penwidth=4 weight=2];
+2 -> 4 [color=dimgray penwidth=4 weight=2];
+0[label=<SNP_FLT3_intronic(chr13)<br/>SNP_SETBP1_pV1101I(chr18)<br/>>];
+1[label=<CALR_pL367fs(chr19)<br/>>];
+2[label=<<B>Loss BRAF (chr7)</B><br/><B>Loss EZH2 (chr7)</B><br/><B>Loss SETBP1:ALT (chr18)</B><br/>>];
+3[label=<<B>TP53_splice-donor(chr17)</B><br/><B>Gain ATM (chr11)</B><br/><B>Gain KMT2A (chr11)</B><br/><B>Gain CBL (chr11)</B><br/>>];
+4[label=<<B>Loss FLT3:REF (chr13)</B><br/><B>CNLOH TP53:REF (chr17)</B><br/>>];
+0 -> 5 [dir=none style=dashed weight=1 penwidth=5 color=lightcoral];
+1 -> 6 [dir=none style=dashed weight=1 penwidth=5 color=skyblue3];
+2 -> 7 [dir=none style=dashed weight=1 penwidth=5 color=sandybrown];
+3 -> 8 [dir=none style=dashed weight=1 penwidth=5 color=paleturquoise3];
+4 -> 9 [dir=none style=dashed weight=1 penwidth=5 color=thistle];
+5[label="1428 cells\n20\%" style = filled width=1.50052 height=1.50052 color=lightcoral];
+6[label="283 cells\n4\%" style = filled width=0.66799 height=0.66799 color=skyblue3];
+7[label="42 cells\n1\%" style = filled width=0.257336 height=0.257336 color=sandybrown];
+8[label="160 cells\n2\%" style = filled width=0.502269 height=0.502269 color=paleturquoise3];
+9[label="5134 cells\n73\%" style = filled width=2.84515 height=2.84515 color=thistle];
+}

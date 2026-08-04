@@ -1,0 +1,15 @@
+node	NRAS_pG13R	NRAS_pG12A	IDH1_pR132H	NPM1_pW288fs	KRAS_pG12A	PTPN11_pD61H	FLT3_pD835H	FLT3-ITD_1	FLT3-ITD_2	IDH2_pR140Q
+Node 0	0	0	0	0	0	0	0	0	0	0
+Node 1	0	0	1	1	0	1	0	0	0	1
+Node 2	0	1	0	1	0	0	0	1	0	1
+Node 3	0	1	0	1	0	0	1	1	0	1
+Node 4	1	0	1	1	0	0	0	0	0	1
+Node 5	0	0	0	1	0	0	0	0	0	1
+Node 6	1	0	0	1	0	0	0	0	0	1
+Node 7	0	0	1	1	0	0	0	0	0	1
+Node 8	0	0	0	1	0	0	0	0	1	1
+Node 9	0	0	1	1	1	0	0	0	0	0
+Node 10	0	0	1	1	0	1	0	0	0	0
+Node 11	0	0	1	1	1	1	0	0	0	1
+Node 12	0	0	1	1	1	0	0	0	0	1
+Node 13	0	0	1	1	1	0	0	0	0	0

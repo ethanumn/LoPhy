@@ -1,0 +1,14 @@
+digraph G{
+node [color=dimgray fontsize=24 fontcolor=black fontname=Helvetica penwidth=5];
+2 -> 1 [color=dimgray penwidth=4 weight=2];
+0 -> 2 [color=dimgray penwidth=4 weight=2];
+0[label=< >];
+1[label=<TET2_p1217(chr4)<br/>>];
+2[label=<DNMT3A_pR736C(chr2)<br/><B>TP53_splice-donor(chr17)</B><br/>TP53_pR248Q(chr17)<br/><B>Loss EZH2 (chr7)</B><br/><B>Loss ETV6 (chr12)</B><br/><B>Loss FLT3 (chr13)</B><br/>>];
+0 -> 3 [dir=none style=dashed weight=1 penwidth=5 color=lightcoral];
+1 -> 4 [dir=none style=dashed weight=1 penwidth=5 color=skyblue3];
+2 -> 5 [dir=none style=dashed weight=1 penwidth=5 color=sandybrown];
+3[label="648 cells\n10\%" style = filled width=1.06989 height=1.06989 color=lightcoral];
+4[label="531 cells\n8\%" style = filled width=0.968502 height=0.968502 color=skyblue3];
+5[label="5111 cells\n81\%" style = filled width=3.00474 height=3.00474 color=sandybrown];
+}

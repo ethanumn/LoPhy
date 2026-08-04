@@ -28,7 +28,10 @@ class data_manager {
                      const int & delta,
                      const double & CNA_penalty,
                      const double & tau1,
-                     const double & tau2); 
+                     const double & tau2,
+                     const double & psi,
+                     const int & max_cn,
+                     const bool & sample_agnostic); 
         double score(const int & cell, const int & mutation, const int observed_value, const int value) const;
         void fill(const vector<vector<int>> & character_matrix,
                   const vector<vector<int>> & variant_reads, 
@@ -50,7 +53,9 @@ class data_manager {
             return span<const vector<T>>(matrix.data() + sample_start_index, num_elements);
         }
         const span<const int> get_sample_span(const int & sample, const vector<int> & data) const;
-        void compute_region_weights(const int sample, const vector<int> & assignments, const vector<int> & parents);
+        void collect_region_sums(const int sample, const vector<int> & assignments, const vector<int> & parents, const bool reset_region_sums=false);
+        void compute_reliable_regions(const int sample);
+        void compute_region_weights(const int sample);
         void print(void) const;
         span<const vector<int>> get_character_matrix(const int & sample) const {return this->get_sample_span(sample, this->character_matrix);}
         span<const vector<int>> get_variant_reads(const int & sample) const {return this->get_sample_span(sample, this->variant_reads);}
@@ -88,6 +93,9 @@ class data_manager {
         double get_CNA_penalty(void) const {return this->CNA_penalty;}
         double get_tau1(void) const {return this->tau1;}
         double get_tau2(void) const {return this->tau2;}
+        double get_psi(void) const {return this->psi;}
+        int get_max_cn(void) const {return this->max_cn;}
+        bool get_sample_agnostic(void) const {return this->sample_agnostic;}
 
         // other functions
         void define_variant_orders(void);
@@ -114,6 +122,7 @@ class data_manager {
         vector<vector<int>> total_reads;
         vector<vector<int>> region_reads;
         vector<vector<double>> region_weights;
+        vector<int> region_sums;
         vector<int> locus_regions;
         vector<int> locus_samples;
         vector<bool> is_germline;
@@ -132,4 +141,7 @@ class data_manager {
         double CNA_penalty;
         double tau1;
         double tau2;
+        double psi;
+        int max_cn;
+        bool sample_agnostic;
 };

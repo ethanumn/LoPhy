@@ -1,0 +1,88 @@
+{
+"nodes":[
+	{
+		"name": "Node 0",
+		"parent": "-",
+		"SNV": [],
+		"CNA": []
+	},
+	{
+		"name": "Node 1",
+		"parent": "Node 7",
+		"SNV": ["PTPN11_pD61H"],
+		"CNA": []
+	},
+	{
+		"name": "Node 2",
+		"parent": "Node 5",
+		"SNV": ["NRAS_pG12A","FLT3-ITD_1"],
+		"CNA": []
+	},
+	{
+		"name": "Node 3",
+		"parent": "Node 2",
+		"SNV": ["FLT3_pD835H"],
+		"CNA": []
+	},
+	{
+		"name": "Node 4",
+		"parent": "Node 7",
+		"SNV": ["NRAS_pG13R"],
+		"CNA": []
+	},
+	{
+		"name": "Node 5",
+		"parent": "Node 0",
+		"SNV": ["IDH2_pR140Q","NPM1_pW288fs"],
+		"CNA": []
+	},
+	{
+		"name": "Node 6",
+		"parent": "Node 4",
+		"SNV": [],
+		"CNA": ["CNLOH IDH1"]
+	},
+	{
+		"name": "Node 7",
+		"parent": "Node 5",
+		"SNV": ["IDH1_pR132H"],
+		"CNA": []
+	},
+	{
+		"name": "Node 8",
+		"parent": "Node 5",
+		"SNV": ["FLT3-ITD_2"],
+		"CNA": []
+	},
+	{
+		"name": "Node 9",
+		"parent": "Node 13",
+		"SNV": [],
+		"CNA": ["Gain chr16"]
+	},
+	{
+		"name": "Node 10",
+		"parent": "Node 1",
+		"SNV": [],
+		"CNA": ["CNLOH IDH2","Gain chr16"]
+	},
+	{
+		"name": "Node 11",
+		"parent": "Node 1",
+		"SNV": ["KRAS_pG12A"],
+		"CNA": []
+	},
+	{
+		"name": "Node 12",
+		"parent": "Node 11",
+		"SNV": [],
+		"CNA": ["CNLOH PTPN11"]
+	},
+	{
+		"name": "Node 13",
+		"parent": "Node 12",
+		"SNV": [],
+		"CNA": ["CNLOH IDH2"]
+	}
+]
+}

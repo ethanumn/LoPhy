@@ -16,7 +16,6 @@ using std::ifstream;
 using std::ostringstream;
 using std::to_string;
 using std::numeric_limits;
-using std::to_string;
 using std::endl;
 using std::distance;
 using std::sort;
@@ -182,6 +181,8 @@ string params_to_string(const Params & params)
     ss << "      CNA_penalty=" << params.CNA_penalty << ",\n";
     ss << "      tau1=" << params.tau1 << ",\n";
     ss << "      tau2=" << params.tau2 << ",\n";
+    ss << "      psi=" << params.psi << ",\n";
+    ss << "      max_cn=" << params.max_cn << ",\n";
     ss << "      seed=" << params.seed << ",\n";
     ss << "      character_matrix_file=\"" << params.character_matrix_file << "\",\n";
     ss << "      meta_file=\"" << params.meta_file << "\",\n";
@@ -234,6 +235,7 @@ void write_out_file(const string out_file,
     output_ss << matrix_to_graph_string("region_weights", region_weights);
     output_ss << matrix_to_graph_string("priors", priors_collection);
     output_ss << "      cell_assignments=\"[" << join(cell_assignments.begin(), cell_assignments.end(), ",") << "]\",\n";
+    output_ss << "      llh=" << tree.get_llh() << ",\n";
     output_ss << "      theta=" << theta << ",\n";
     output_ss << "      root_id=0,\n";
     output_ss << "      root_name=\"" << "Clone_0" << "\",\n";
@@ -278,7 +280,7 @@ void write_all_results(string path_with_prefix,
     const CNAs cnas = tree.get_cnas();
 
     stringstream out_file_ss;
-    out_file_ss << path_with_prefix << "_ml" << 0 << ".gv";
+    out_file_ss << path_with_prefix << "_" <<  params.seed << ".gv";
     stringstream graph_ss;
     vector<string> variants;
 
@@ -378,14 +380,27 @@ void write_all_results(string path_with_prefix,
                     case GAIN_ALT:
                         ss << "Gain " << region_names[region] << " ALT";
                         break;
+                    case GAIN_ALT_2:
+                        ss << "2-Gains " << region_names[region] << " ALT";
+                        break;
+                    case GAIN_ALT_3:
+                        ss << "3-Gains " << region_names[region] << " ALT";
+                        break;
                     case GAIN_REF:
                         ss << "Gain " << region_names[region] << " REF";
+                        break;
+                    case GAIN_REF_2:
+                        ss << "2-Gains " << region_names[region] << " REF";
+                        break;
+                    case GAIN_REF_3:
+                        ss << "3-Gains " << region_names[region] << " REF";
                         break;
                     case CNLOH_ALT:
                         ss << "CNLOH " << region_names[region] << " ALT";
                         break;
                     case CNLOH_REF:
                         ss << "CNLOH " << region_names[region] << " REF";
+                        break;
                     default:
                         break;
                 }
@@ -398,7 +413,7 @@ void write_all_results(string path_with_prefix,
     attachment_string = compute_attachment_strings(tree.get_cell_assignments(), cell_names);
 
     // First, define all nodes with unique IDs and their labels
-    for (int clone = 0; clone < num_clones; ++clone) 
+    for (int clone = 1; clone < num_clones; ++clone) 
     {
         if (parents[clone - 1] == NO_PARENT || parents[clone - 1] > 2 * m)
             continue;
